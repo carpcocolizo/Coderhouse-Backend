@@ -2,11 +2,11 @@ const { Router } = require('express')
 const router = Router()
 const productos = []
 
-router.get('/', (req, res) => {
+router.get('/productos', (req, res) => {
     res.json(productos)
 })
 
-router.get('/:id', (req, res) => {
+router.get('/productos/:id', (req, res) => {
     const id = Number(req.params.id)
     if (productos[id - 1] == undefined ) {
         res.json("{ error: producto no encontrado }")
@@ -16,7 +16,7 @@ router.get('/:id', (req, res) => {
     res.json(producto)
 })
 
-router.post('/', (req, res) => {
+router.post('/productos', (req, res) => {
     const { title, price, thumbnail } = req.body
     if(isNaN(Number(price))) {
         const error = new Error('El precio tiene que ser un numero')
@@ -29,7 +29,7 @@ router.post('/', (req, res) => {
     res.sendStatus(201)
 })
 
-router.put('/:id', (req, res) => {
+router.put('/productos/:id', (req, res) => {
     const id = Number(req.params.id)
     const { title, price, thumbnail } = req.body
     if(isNaN(Number(price))) {
@@ -42,7 +42,7 @@ router.put('/:id', (req, res) => {
     res.sendStatus(202)
 })
 
-router.delete('/:id', (req, res) => {
+router.delete('/productos/:id', (req, res) => {
     const id = Number(req.params.id)
     const { title, price, thumbnail } = req.body
     if(isNaN(Number(price))) {

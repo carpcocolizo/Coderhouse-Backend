@@ -9,7 +9,7 @@ app.use(express.urlencoded({ extended: true }))
 app.use('/public', express.static(`${__dirname}/public`))
 
 
-app.use('/api/productos', rutas)
+app.use('/api', rutas)
 
 app.use((error, req, res, next) => {
     res.status(error.httpStatusCode(400)).send(error)
