@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingreso de Productos</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
+    <style>
+        table, th, td {
+          border:1px solid black;
+        }
+        div {
+          display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ingrese Producto:</h1>
+    <form id="productosForm">
+        Nombre: <input type="text" name="title" id="titleForm"></br>
+        Precio: <input type="number" name="price" id="priceForm"></br>
+        Foto URL: <input type="text" name="thumbnail" id="thumbnailForm"></br>
+        <input type="submit" value="Enviar">
+    </form>
+    <div id="productos"></div>
+
+    <h1>Centro de Mensajes</h1>
+    <input style="position: absolute;" form="messageForm" id="emailInput" type="email" placeholder="Ingrese Email">
+    
+    <div id="messagesPool"></div>
+
+    <form style="position: absolute;" id="messageForm">
+        <input id="messageInput" type="text" placeholder="Ingrese Mensaje">
+        <input type="submit" value="Enviar">
+    </form>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./client.socket.js"></script>
+</body>
+</body>
+</html>
