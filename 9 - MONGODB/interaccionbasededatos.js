@@ -8,4 +8,7 @@ db.producto.insertOne({nombre: "compas", precio: 2460, foto:"https://cdn1.iconfi
 db.producto.find({"precio": {$lt: 1000}})
 db.producto.find({$and: [{"precio": {$gte: 1000}}, {"precio": {$lte: 3000}}]})
 db.producto.find({"precio": {$gt: 3000}})
-db.producto.find({"nombre": 1}).sort({"precio": 1}).limit(1).skip(2)
+db.producto.find({},{_id: 0, "nombre": 1}).sort({"precio": 1}).limit(1).skip(2)
+db.producto.updateMany({}, {$set: {"stock": 100}})
+db.producto.updateMany({"precio": {$gt: 4000}}, {$set: {"stock": 0}})
+db.producto.deleteMany( {"precio": {$lt: 1000}} )
