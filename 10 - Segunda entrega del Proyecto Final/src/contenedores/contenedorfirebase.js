@@ -80,12 +80,11 @@ class ContenedorFirebase {
     }
   }
 
-  // Al usar arrayUnion no se puede filtrar por values, por eso recurro a una forma alternativa
+  // Al usar arrayRemove no se puede filtrar por values, por eso recurro a una forma alternativa
   deleteFromCarrito = async (id1, id2) => {
     try {
       const doc = this.collection.doc(id1)
       const items = await doc.get()
-      console.log(items)
       const itemsProductos = items.data().productos
       const newArray = itemsProductos.filter((producto) => {
         if(producto.id != id2) {
