@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingreso de Productos</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
+    <style>
+        table, th, td {
+          border:1px solid black;
+        }
+        div {
+          display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>
+            Bienvenid@, {{nombre}}
+                <button style="position: absolute; right: 0;" onclick="location.href='./logout'">
+                    Desloguear
+                </button>
+        </h1>
+    </div>
+    <h1>Ingrese Producto:</h1>
+    <form id="productosForm">
+        Nombre: <input type="text" name="title" id="titleForm"></br>
+        Precio: <input type="number" name="price" id="priceForm"></br>
+        Foto URL: <input type="text" name="thumbnail" id="thumbnailForm"></br>
+        <input type="submit" value="Enviar">
+    </form>
+    <div id="productos"></div>
+
+    <h1>Centro de Mensajes</h1>
+    <h2 id="optimizacion"></h2></br>
+
+    <form  id="messageForm">
+        <input id="emailInput" type="email" placeholder="Ingrese Email"></br>
+        <input id="firstNameInput" type="text" placeholder="Ingresar Nombre"></br>
+        <input id="lastNameInput" type="text" placeholder="Ingresar Apellido"></br>
+        <input id="ageInput" type="number" placeholder="Ingresar Edad"></br>
+        <input id="usernameInput" type="text" placeholder="Ingresar Nombre de Usuario"></br>
+        <input id="avatarInput" type="url" placeholder="Ingresar avatar (URL)"></br>
+        <input id="messageInput" type="text" placeholder="Ingrese Mensaje"></br>
+        <input type="submit" value="Enviar">
+    </form>
+    
+    <div id="messagesPool"></div>
+    <script src="https://cdn.jsdelivr.net/npm/normalizr@3.6.1/dist/normalizr.browser.min.js"></script>
+    <script src="/script.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.socket.js"></script>
+</body>
+</body>
+</html>
