@@ -298,7 +298,6 @@ if (isCluster === "CLUSTER" && cluster.isPrimary) {
   };
 
   app.get("/info", (req, res) => {
-    console.log(info)
     res.render("info.hbs", { info });
   });
 
