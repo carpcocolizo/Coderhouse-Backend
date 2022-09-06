@@ -1,0 +1,1042 @@
+Statistical profiling result from consolelog-v8.log, (4241 ticks, 5 unaccounted, 0 excluded).
+
+ [Shared libraries]:
+   ticks  total  nonlib   name
+   3495   82.4%          /usr/local/bin/node
+     82    1.9%          /usr/lib/x86_64-linux-gnu/libc-2.31.so
+     54    1.3%          [vdso]
+      3    0.1%          /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28
+
+ [JavaScript]:
+   ticks  total  nonlib   name
+     38    0.9%    6.3%  LazyCompile: *parse /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:269:30
+     20    0.5%    3.3%  LazyCompile: *wrap /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:101:22
+     17    0.4%    2.8%  LazyCompile: *resolve node:path:1091:10
+     13    0.3%    2.1%  LazyCompile: *next /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:478:32
+     11    0.3%    1.8%  LazyCompile: *SourceNode_walk /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/source-map/lib/source-node.js:221:53
+     10    0.2%    1.6%  LazyCompile: *next /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/router/index.js:177:16
+      9    0.2%    1.5%  LazyCompile: *normalizeString node:path:66:25
+      7    0.2%    1.2%  LazyCompile: *step /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      7    0.2%    1.2%  LazyCompile: *<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-handlebars/dist/express-handlebars.js:251:47
+      5    0.1%    0.8%  LazyCompile: *compile /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      5    0.1%    0.8%  LazyCompile: *anonymous /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:12:42
+      5    0.1%    0.8%  LazyCompile: *<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/source-map/lib/source-node.js:174:29
+      4    0.1%    0.7%  LazyCompile: *processTicksAndRejections node:internal/process/task_queues:68:35
+      3    0.1%    0.5%  RegExp: ^(?:\.(?=([=~}\s\/.)|])))
+      3    0.1%    0.5%  RegExp: (?:\r\n?|\n).*
+      3    0.1%    0.5%  LazyCompile: *step /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-handlebars/dist/express-handlebars.js:23:22
+      3    0.1%    0.5%  LazyCompile: *preparePath /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/helpers.js:63:21
+      3    0.1%    0.5%  LazyCompile: *SourceNode_add /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/source-map/lib/source-node.js:172:51
+      3    0.1%    0.5%  Function: ^wrapHelper /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/internal/wrapHelper.js:6:20
+      2    0.0%    0.3%  RegExp: ^(?:[^\x00]*?(?=(\{\{)))
+      2    0.0%    0.3%  RegExp: [\u0000-\u001f\u0022\u005c\ud800-\udfff]|[\ud800-\udbff](?![\udc00-\udfff])|(?:[^\ud800-\udbff]|^)[\udc00-\udfff]
+      2    0.0%    0.3%  RegExp: (?<=\n)
+      2    0.0%    0.3%  LazyCompile: *relative node:path:1190:11
+      2    0.0%    0.3%  LazyCompile: *normalize node:path:1127:12
+      2    0.0%    0.3%  LazyCompile: *formatValue node:internal/util/inspect:745:21
+      2    0.0%    0.3%  LazyCompile: *anonymous /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:549:49
+      2    0.0%    0.3%  LazyCompile: *accept /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/visitor.js:57:26
+      2    0.0%    0.3%  LazyCompile: *Module._nodeModulePaths node:internal/modules/cjs/loader:629:37
+      2    0.0%    0.3%  LazyCompile: *<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-handlebars/dist/express-handlebars.js:331:47
+      2    0.0%    0.3%  LazyCompile: *<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-handlebars/dist/express-handlebars.js:30:40
+      2    0.0%    0.3%  Function: ^get node:internal/streams/writable:787:8
+      2    0.0%    0.3%  Function: ^__awaiter /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-handlebars/dist/express-handlebars.js:18:54
+      2    0.0%    0.3%  Function: ^<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/request.js:467:36
+      1    0.0%    0.2%  RegExp: ^[!#$%&'*+.^_`|~0-9A-Za-z-]+\/[!#$%&'*+.^_`|~0-9A-Za-z-]+$
+      1    0.0%    0.2%  RegExp: ^[!#$%&'*+.^_`|~0-9A-Za-z-]+$
+      1    0.0%    0.2%  RegExp: ^(?:as\s+\|)
+      1    0.0%    0.2%  RegExp: ^(?:\}(~)?\}\})
+      1    0.0%    0.2%  RegExp: ^(?:\{\{(~)?\s*else\s*(~)?\}\})
+      1    0.0%    0.2%  RegExp: ^(?:\{\{(~)?\/)
+      1    0.0%    0.2%  RegExp: ^(?:\{\{(~)?>)
+      1    0.0%    0.2%  RegExp: ^(?:\{\{(~)?#\*?)
+      1    0.0%    0.2%  RegExp: ^(?:\{\{(~)?#>)
+      1    0.0%    0.2%  RegExp: ^(?:\s+)
+      1    0.0%    0.2%  RegExp: ^(?:[\/.])
+      1    0.0%    0.2%  RegExp: ^(?:=)
+      1    0.0%    0.2%  RegExp: ^(?:([^\s!"#%-,\.\/;->@\[-\^`\{-~]+(?=([=~}\s\/.)|]))))
+      1    0.0%    0.2%  RegExp: ^((?:@[^/\\%]+\/)?[^./\\%][^/\\%]*)(\/.*)?$
+      1    0.0%    0.2%  RegExp: \u001b\[\d\d?m
+      1    0.0%    0.2%  RegExp: \r?\n?
+      1    0.0%    0.2%  RegExp: [&<>"'`=]
+      1    0.0%    0.2%  RegExp: ;\s*charset\s*=
+      1    0.0%    0.2%  RegExp: (^|\r?\n)\s*?$
+      1    0.0%    0.2%  LazyCompile: *stylizeWithColor node:internal/util/inspect:540:26
+      1    0.0%    0.2%  LazyCompile: *slowCases node:internal/util:165:19
+      1    0.0%    0.2%  LazyCompile: *resolvePossibleLambda /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:527:56
+      1    0.0%    0.2%  LazyCompile: *resolvePath /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:492:36
+      1    0.0%    0.2%  LazyCompile: *readPackageScope node:internal/modules/cjs/loader:321:26
+      1    0.0%    0.2%  LazyCompile: *popStack /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:960:30
+      1    0.0%    0.2%  LazyCompile: *parse /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/minimatch/minimatch.js:413:9
+      1    0.0%    0.2%  LazyCompile: *nextTick node:internal/process/task_queues:104:18
+      1    0.0%    0.2%  LazyCompile: *isAbsolute node:path:1156:13
+      1    0.0%    0.2%  LazyCompile: *getPathFromURLPosix node:internal/url:1398:29
+      1    0.0%    0.2%  LazyCompile: *extend /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/utils.js:28:16
+      1    0.0%    0.2%  LazyCompile: *dirname node:path:1275:10
+      1    0.0%    0.2%  LazyCompile: *castChunk /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:52:19
+      1    0.0%    0.2%  LazyCompile: *basename node:path:1306:11
+      1    0.0%    0.2%  LazyCompile: *accept /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:101:26
+      1    0.0%    0.2%  LazyCompile: *Program /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:113:28
+      1    0.0%    0.2%  LazyCompile: *PathExpression /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:289:42
+      1    0.0%    0.2%  LazyCompile: *MustacheStatement /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:215:48
+      1    0.0%    0.2%  LazyCompile: *<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+      1    0.0%    0.2%  LazyCompile: *<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-handlebars/dist/express-handlebars.js:20:46
+      1    0.0%    0.2%  Function: ^writevGeneric node:internal/stream_base_commons:122:23
+      1    0.0%    0.2%  Function: ^writeOrBuffer node:internal/streams/writable:365:23
+      1    0.0%    0.2%  Function: ^toString node:buffer:783:46
+      1    0.0%    0.2%  Function: ^toString /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/uid-safe/index.js:102:19
+      1    0.0%    0.2%  Function: ^shouldTransform /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/compression/index.js:270:26
+      1    0.0%    0.2%  Function: ^shouldSetCookie /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-session/index.js:464:29
+      1    0.0%    0.2%  Function: ^setStreamTimeout node:internal/stream_base_commons:237:26
+      1    0.0%    0.2%  Function: ^send /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/send/index.js:83:15
+      1    0.0%    0.2%  Function: ^restore /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/router/index.js:631:17
+      1    0.0%    0.2%  Function: ^render /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/application.js:548:29
+      1    0.0%    0.2%  Function: ^readableAddChunk node:internal/streams/readable:236:26
+      1    0.0%    0.2%  Function: ^readableAddChunk /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:249:26
+      1    0.0%    0.2%  Function: ^readSync node:fs:684:18
+      1    0.0%    0.2%  Function: ^pushAsyncContext node:internal/async_hooks:540:26
+      1    0.0%    0.2%  Function: ^prepareMustache /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/helpers.js:99:25
+      1    0.0%    0.2%  Function: ^popAsyncContext node:internal/async_hooks:554:25
+      1    0.0%    0.2%  Function: ^parse /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/minimatch/minimatch.js:413:9
+      1    0.0%    0.2%  Function: ^onwrite node:internal/streams/writable:425:17
+      1    0.0%    0.2%  Function: ^onwrite /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:444:17
+      1    0.0%    0.2%  Function: ^ondata /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:679:18
+      1    0.0%    0.2%  Function: ^once /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/once/once.js:21:15
+      1    0.0%    0.2%  Function: ^noop node:internal/util/debuglog:47:14
+      1    0.0%    0.2%  Function: ^nextTick node:internal/process/task_queues:104:18
+      1    0.0%    0.2%  Function: ^multiplication32 file:///home/cocolizo/Desktop/Backend/Coderhouse-Backend/16%20-%20Loggers,%20gzip,%20y%20analisis%20de%20performance/node_modules/@faker-js/faker/dist/esm/chunk-GCRDD34F.mjs:7:419
+      1    0.0%    0.2%  Function: ^module.exports /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/utils-merge/index.js:16:36
+      1    0.0%    0.2%  Function: ^isEncoding node:buffer:530:40
+      1    0.0%    0.2%  Function: ^hasRejectionToWarn node:internal/process/promises:79:28
+      1    0.0%    0.2%  Function: ^hasHooks node:internal/async_hooks:471:18
+      1    0.0%    0.2%  Function: ^getcookie /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-session/index.js:529:19
+      1    0.0%    0.2%  Function: ^getContext /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:427:34
+      1    0.0%    0.2%  Function: ^fulfilled /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-handlebars/dist/express-handlebars.js:21:27
+      1    0.0%    0.2%  Function: ^fromStringFast node:buffer:413:24
+      1    0.0%    0.2%  Function: ^formatRaw node:internal/util/inspect:820:19
+      1    0.0%    0.2%  Function: ^end /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-session/index.js:250:27
+      1    0.0%    0.2%  Function: ^digest node:internal/crypto/hash:115:40
+      1    0.0%    0.2%  Function: ^debug /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/debug/src/debug.js:65:17
+      1    0.0%    0.2%  Function: ^createUnsafeBuffer node:internal/buffer:1059:28
+      1    0.0%    0.2%  Function: ^createHash node:crypto:129:20
+      1    0.0%    0.2%  Function: ^clearStateChar /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/minimatch/minimatch.js:447:28
+      1    0.0%    0.2%  Function: ^attempt /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/passport/lib/middleware/authenticate.js:180:22
+      1    0.0%    0.2%  Function: ^assert node:internal/assert:11:16
+      1    0.0%    0.2%  Function: ^append node:internal/linkedlist:30:16
+      1    0.0%    0.2%  Function: ^allocUnsafeSlow node:buffer:383:50
+      1    0.0%    0.2%  Function: ^afterWriteTick node:internal/streams/writable:482:24
+      1    0.0%    0.2%  Function: ^afterWriteDispatched node:internal/stream_base_commons:155:30
+      1    0.0%    0.2%  Function: ^afterWrite node:internal/streams/writable:487:20
+      1    0.0%    0.2%  Function: ^_flushOutput node:_http_outgoing:951:63
+      1    0.0%    0.2%  Function: ^_destroy node:internal/streams/destroy:70:18
+      1    0.0%    0.2%  Function: ^Writable.cork node:internal/streams/writable:337:35
+      1    0.0%    0.2%  Function: ^Transform._read /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:171:38
+      1    0.0%    0.2%  Function: ^Stats._checkModeProperty node:internal/fs/utils:518:46
+      1    0.0%    0.2%  Function: ^Socket._writeGeneric node:net:791:42
+      1    0.0%    0.2%  Function: ^Readable.read node:internal/streams/readable:394:35
+      1    0.0%    0.2%  Function: ^MustacheStatement /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:215:48
+      1    0.0%    0.2%  Function: ^Module.require node:internal/modules/cjs/loader:997:36
+      1    0.0%    0.2%  Function: ^Module.load node:internal/modules/cjs/loader:969:33
+      1    0.0%    0.2%  Function: ^Glob /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/glob/glob.js:117:15
+      1    0.0%    0.2%  Function: ^ExpressHandlebars._renderTemplate /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-handlebars/dist/express-handlebars.js:321:60
+      1    0.0%    0.2%  Function: ^Cookie /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-session/session/cookie.js:25:46
+      1    0.0%    0.2%  Function: ^<anonymous> node:internal/validators:154:3
+      1    0.0%    0.2%  Function: ^<anonymous> file:///home/cocolizo/Desktop/Backend/Coderhouse-Backend/16%20-%20Loggers,%20gzip,%20y%20analisis%20de%20performance/src/server.js:160:11
+      1    0.0%    0.2%  Function: ^<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/graceful-fs/graceful-fs.js:118:50
+      1    0.0%    0.2%  Function: ^<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-handlebars/dist/express-handlebars.js:251:47
+      1    0.0%    0.2%  Function: ^<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+
+ [C++]:
+   ticks  total  nonlib   name
+     92    2.2%   15.2%  __write
+     36    0.8%    5.9%  __libc_read
+     30    0.7%    4.9%  fwrite
+     19    0.4%    3.1%  epoll_pwait
+     15    0.4%    2.5%  std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)
+     14    0.3%    2.3%  __GI___pthread_mutex_unlock
+     13    0.3%    2.1%  __pthread_cond_wait
+     12    0.3%    2.0%  __mprotect
+      9    0.2%    1.5%  __libc_write
+      8    0.2%    1.3%  __pthread_cond_signal
+      7    0.2%    1.2%  std::ostream::sentry::sentry(std::ostream&)
+      7    0.2%    1.2%  __libc_malloc
+      5    0.1%    0.8%  __munmap
+      5    0.1%    0.8%  __lll_lock_wait
+      4    0.1%    0.7%  syscall
+      4    0.1%    0.7%  cfree
+      4    0.1%    0.7%  __mmap
+      2    0.0%    0.3%  std::_Rb_tree_insert_and_rebalance(bool, std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)
+      2    0.0%    0.3%  _IO_padn
+      2    0.0%    0.3%  _IO_file_xsputn
+      1    0.0%    0.2%  std::ostreambuf_iterator<char, std::char_traits<char> > std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::_M_insert_int<long>(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, long) const
+      1    0.0%    0.2%  std::ostream::operator<<(int)
+      1    0.0%    0.2%  std::ostream& std::ostream::_M_insert<long>(long)
+      1    0.0%    0.2%  std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::do_put(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, long) const
+      1    0.0%    0.2%  std::_Rb_tree_decrement(std::_Rb_tree_node_base*)
+      1    0.0%    0.2%  shutdown
+      1    0.0%    0.2%  operator new[](unsigned long)
+      1    0.0%    0.2%  operator new(unsigned long)
+      1    0.0%    0.2%  do_futex_wait.constprop.0
+      1    0.0%    0.2%  __clock_gettime
+      1    0.0%    0.2%  __GI___pthread_rwlock_unlock
+      1    0.0%    0.2%  _IO_default_xsputn
+
+ [Summary]:
+   ticks  total  nonlib   name
+    300    7.1%   49.4%  JavaScript
+    302    7.1%   49.8%  C++
+    146    3.4%   24.1%  GC
+   3634   85.7%          Shared libraries
+      5    0.1%          Unaccounted
+
+ [C++ entry points]:
+   ticks    cpp   total   name
+     69   39.7%    1.6%  __write
+     29   16.7%    0.7%  fwrite
+     14    8.0%    0.3%  std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)
+      9    5.2%    0.2%  __mprotect
+      9    5.2%    0.2%  __libc_write
+      8    4.6%    0.2%  __GI___pthread_mutex_unlock
+      6    3.4%    0.1%  std::ostream::sentry::sentry(std::ostream&)
+      6    3.4%    0.1%  __libc_malloc
+      4    2.3%    0.1%  syscall
+      4    2.3%    0.1%  __lll_lock_wait
+      2    1.1%    0.0%  std::_Rb_tree_insert_and_rebalance(bool, std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)
+      2    1.1%    0.0%  cfree
+      2    1.1%    0.0%  _IO_padn
+      2    1.1%    0.0%  _IO_file_xsputn
+      1    0.6%    0.0%  std::ostreambuf_iterator<char, std::char_traits<char> > std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::_M_insert_int<long>(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, long) const
+      1    0.6%    0.0%  std::ostream::operator<<(int)
+      1    0.6%    0.0%  std::ostream& std::ostream::_M_insert<long>(long)
+      1    0.6%    0.0%  std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::do_put(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, long) const
+      1    0.6%    0.0%  std::_Rb_tree_decrement(std::_Rb_tree_node_base*)
+      1    0.6%    0.0%  operator new(unsigned long)
+      1    0.6%    0.0%  __GI___pthread_rwlock_unlock
+      1    0.6%    0.0%  _IO_default_xsputn
+
+ [Bottom up (heavy) profile]:
+  Note: percentage shows a share of a particular caller in the total
+  amount of its parent calls.
+  Callers occupying less than 1.0% are not shown.
+
+   ticks parent  name
+   3495   82.4%  /usr/local/bin/node
+   2199   62.9%    /usr/local/bin/node
+    463   21.1%      Function: ^compileFunction node:vm:308:25
+    461   99.6%        Function: ^wrapSafe node:internal/modules/cjs/loader:1017:18
+    460   99.8%          Function: ^Module._compile node:internal/modules/cjs/loader:1059:37
+    446   97.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1114:37
+     14    3.0%            LazyCompile: ~Module._extensions..js node:internal/modules/cjs/loader:1114:37
+    234   10.6%      Function: ^moduleStrategy node:internal/modules/esm/translators:112:56
+    234  100.0%        Function: ^moduleProvider node:internal/modules/esm/loader:322:28
+    234  100.0%          /usr/local/bin/node
+     75    3.4%      /usr/local/bin/node
+      6    8.0%        Function: ^removeColors node:internal/util:76:22
+      6  100.0%          Function: ^isBelowBreakLength node:internal/util/inspect:1878:28
+      6  100.0%            Function: ^reduceToSingleString node:internal/util/inspect:1902:30
+      6    8.0%        Function: ^readPackage node:internal/modules/cjs/loader:290:21
+      5   83.3%          Function: ^readPackageScope node:internal/modules/cjs/loader:321:26
+      3   60.0%            Function: ^trySelf node:internal/modules/cjs/loader:441:17
+      2   40.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1114:37
+      1   16.7%          Function: ^tryPackage node:internal/modules/cjs/loader:338:20
+      1  100.0%            Function: ^Module._findPath node:internal/modules/cjs/loader:494:28
+      6    8.0%        Function: ^escapeExpression /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/utils.js:77:26
+      5   83.3%          Function: ^<anonymous> :1:20
+      5  100.0%            Function: ^main /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/runtime.js:207:18
+      1   16.7%          LazyCompile: *<anonymous> :1:20
+      1  100.0%            Function: ^main /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/runtime.js:207:18
+      5    6.7%        Function: ^parse /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/minimatch/minimatch.js:413:9
+      5  100.0%          /usr/local/bin/node
+      5  100.0%            Function: ^<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/minimatch/minimatch.js:222:19
+      4    5.3%        Function: ^FastBuffer node:internal/buffer:958:14
+      4  100.0%          Function: ^createUnsafeBuffer node:internal/buffer:1059:28
+      2   50.0%            Function: ^allocate node:buffer:398:18
+      1   25.0%            Function: ^createPool node:buffer:151:20
+      1   25.0%            Function: ^allocUnsafeSlow node:buffer:383:50
+      3    4.0%        Function: ^expressInit /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/middleware/init.js:29:30
+      3  100.0%          LazyCompile: *trim_prefix /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/router/index.js:293:23
+      3  100.0%            LazyCompile: *next /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/router/index.js:177:16
+      2    2.7%        LazyCompile: *pushSource /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:881:34
+      2  100.0%          Function: ^appendEscaped /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:416:40
+      2  100.0%            LazyCompile: *compile /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      2    2.7%        LazyCompile: *parse /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/minimatch/minimatch.js:413:9
+      2  100.0%          /usr/local/bin/node
+      2  100.0%            Function: ^<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/minimatch/minimatch.js:222:19
+      2    2.7%        LazyCompile: *Module._findPath node:internal/modules/cjs/loader:494:28
+      2  100.0%          Function: ^Module._resolveFilename node:internal/modules/cjs/loader:848:35
+      2  100.0%            Function: ^Module._load node:internal/modules/cjs/loader:757:24
+      2    2.7%        Function: ^strEscape /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/safe-stable-stringify/index.js:55:20
+      2  100.0%          Function: ^stringifyFnReplacer /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/safe-stable-stringify/index.js:203:32
+      2  100.0%            Function: ^stringifyFnReplacer /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/safe-stable-stringify/index.js:203:32
+      2    2.7%        Function: ^quotedString /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:118:38
+      2  100.0%          Function: ^pushSource /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:881:34
+      2  100.0%            Function: ^appendEscaped /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:416:40
+      2    2.7%        Function: ^pipe /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/send/index.js:506:43
+      2  100.0%          Function: ^serveStatic /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/serve-static/index.js:72:31
+      1   50.0%            LazyCompile: *trim_prefix /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/router/index.js:293:23
+      1   50.0%            Function: ^handle /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/router/layer.js:86:49
+      2    2.7%        Function: ^<anonymous> node:internal/fs/utils:358:35
+      2  100.0%          Function: ^<anonymous> node:internal/fs/utils:669:38
+      2  100.0%            Function: ^<anonymous> node:internal/fs/utils:681:42
+      1    1.3%        Script: ~<anonymous> file:///home/cocolizo/Desktop/Backend/Coderhouse-Backend/16%20-%20Loggers,%20gzip,%20y%20analisis%20de%20performance/node_modules/@faker-js/faker/dist/esm/chunk-W45S2P6P.mjs:1:1
+      1  100.0%          /usr/local/bin/node
+      1  100.0%            /usr/local/bin/node
+      1    1.3%        LazyCompile: ~supportsColor /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/@colors/colors/lib/system/supports-colors.js:58:23
+      1  100.0%          LazyCompile: ~getSupportLevel /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/@colors/colors/lib/system/supports-colors.js:142:25
+      1  100.0%            Function: ~<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/@colors/colors/lib/system/supports-colors.js:1:1
+      1    1.3%        LazyCompile: ~strEscape /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/safe-stable-stringify/index.js:55:20
+      1  100.0%          LazyCompile: ~stringifyFnReplacer /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/safe-stable-stringify/index.js:203:32
+      1  100.0%            LazyCompile: ~stringify /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/safe-stable-stringify/index.js:594:22
+      1    1.3%        LazyCompile: ~processTicksAndRejections node:internal/process/task_queues:68:35
+      1    1.3%        LazyCompile: ~populateMaps /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mime-types/index.js:154:23
+      1  100.0%          Function: ~<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mime-types/index.js:1:1
+      1  100.0%            Function: ^Module._compile node:internal/modules/cjs/loader:1059:37
+      1    1.3%        LazyCompile: ~pathtoRegexp /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/path-to-regexp/index.js:28:22
+      1  100.0%          LazyCompile: ~Layer /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/router/layer.js:33:15
+      1  100.0%            LazyCompile: ~Layer /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/router/layer.js:33:15
+      1    1.3%        LazyCompile: ~merge /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/merge-descriptors/index.js:34:15
+      1  100.0%          LazyCompile: ~createApplication /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/express.js:37:27
+      1  100.0%            Script: ~<anonymous> file:///home/cocolizo/Desktop/Backend/Coderhouse-Backend/16%20-%20Loggers,%20gzip,%20y%20analisis%20de%20performance/src/server.js:1:1
+      1    1.3%        LazyCompile: ~getConstructorName node:internal/util/inspect:567:28
+      1  100.0%          LazyCompile: ~formatRaw node:internal/util/inspect:820:19
+      1  100.0%            Function: ^formatValue node:internal/util/inspect:745:21
+      1    1.3%        LazyCompile: ~fromString /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb/lib/utils.js:370:22
+      1  100.0%          LazyCompile: ~ns /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb/lib/utils.js:348:12
+      1  100.0%            LazyCompile: ~MongoClient /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb/lib/mongo_client.js:62:16
+      1    1.3%        LazyCompile: ~config /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/dotenv/lib/main.js:55:17
+      1  100.0%          Script: ~<anonymous> file:///home/cocolizo/Desktop/Backend/Coderhouse-Backend/16%20-%20Loggers,%20gzip,%20y%20analisis%20de%20performance/src/config.js:1:1
+      1  100.0%            /usr/local/bin/node
+      1    1.3%        LazyCompile: ~baseIsNative /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/lodash/_baseIsNative.js:39:22
+      1  100.0%          LazyCompile: ~getNative /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/lodash/_getNative.js:12:19
+      1  100.0%            Function: ~<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/lodash/_nativeCreate.js:1:1
+      1    1.3%        LazyCompile: ~<anonymous> file:///home/cocolizo/Desktop/Backend/Coderhouse-Backend/16%20-%20Loggers,%20gzip,%20y%20analisis%20de%20performance/node_modules/yargs/build/lib/yargs-factory.js:1317:40
+      1  100.0%          LazyCompile: ~parse file:///home/cocolizo/Desktop/Backend/Coderhouse-Backend/16%20-%20Loggers,%20gzip,%20y%20analisis%20de%20performance/node_modules/yargs/build/lib/yargs-factory.js:683:10
+      1  100.0%            LazyCompile: ~get file:///home/cocolizo/Desktop/Backend/Coderhouse-Backend/16%20-%20Loggers,%20gzip,%20y%20analisis%20de%20performance/node_modules/yargs/build/lib/yargs-factory.js:30:18
+      1    1.3%        LazyCompile: ~<anonymous> file:///home/cocolizo/Desktop/Backend/Coderhouse-Backend/16%20-%20Loggers,%20gzip,%20y%20analisis%20de%20performance/node_modules/yargs/build/lib/yargs-factory.js:1245:13
+      1  100.0%          LazyCompile: ~YargsInstance file:///home/cocolizo/Desktop/Backend/Coderhouse-Backend/16%20-%20Loggers,%20gzip,%20y%20analisis%20de%20performance/node_modules/yargs/build/lib/yargs-factory.js:76:16
+      1  100.0%            LazyCompile: ~<anonymous> file:///home/cocolizo/Desktop/Backend/Coderhouse-Backend/16%20-%20Loggers,%20gzip,%20y%20analisis%20de%20performance/node_modules/yargs/build/lib/yargs-factory.js:27:12
+      1    1.3%        LazyCompile: ~<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongoose/lib/helpers/pluralize.js:86:34
+      1  100.0%          /usr/local/bin/node
+      1  100.0%            LazyCompile: ~pluralize /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongoose/lib/helpers/pluralize.js:82:19
+      1    1.3%        LazyCompile: ~<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/@mapbox/node-pre-gyp/lib/util/versioning.js:23:36
+      1  100.0%          /usr/local/bin/node
+      1  100.0%            Function: ~<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/@mapbox/node-pre-gyp/lib/util/versioning.js:1:1
+      1    1.3%        LazyCompile: *realpathSync node:fs:2425:22
+      1  100.0%          Function: ^toRealPath node:internal/modules/cjs/loader:393:20
+      1  100.0%            Function: ^Module._findPath node:internal/modules/cjs/loader:494:28
+      1    1.3%        Function: ~<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/color/node_modules/color-convert/conversions.js:1:1
+      1  100.0%          Function: ^Module._compile node:internal/modules/cjs/loader:1059:37
+      1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1114:37
+      1    1.3%        Function: ^toString /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/uid-safe/index.js:102:19
+      1  100.0%          Function: ^uidSync /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/uid-safe/index.js:75:18
+      1  100.0%            Function: ^generateSessionId /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-session/index.js:518:27
+      1    1.3%        Function: ^stat node:internal/modules/cjs/loader:151:14
+      1  100.0%          Function: ^Module._findPath node:internal/modules/cjs/loader:494:28
+      1  100.0%            Function: ^Module._resolveFilename node:internal/modules/cjs/loader:848:35
+      1    1.3%        Function: ^scopedId /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/ast.js:14:32
+      1  100.0%          Function: ^PathExpression /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:289:42
+      1  100.0%            LazyCompile: *accept /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:101:26
+      1    1.3%        Function: ^ret /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/runtime.js:188:15
+      1  100.0%          Function: ^ret /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:515:15
+      1  100.0%            Function: ^ExpressHandlebars._renderTemplate /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-handlebars/dist/express-handlebars.js:321:60
+      1    1.3%        Function: ^replaceStack /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:892:38
+      1  100.0%          Function: ^resolvePath /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:492:36
+      1  100.0%            Function: ^lookupOnContext /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:448:44
+      1    1.3%        Function: ^onParserExecuteCommon node:_http_server:696:31
+      1  100.0%          Function: ^onParserExecute node:_http_server:639:25
+      1    1.3%        Function: ^mergeSource /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:267:36
+      1  100.0%          LazyCompile: *compile /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1  100.0%            Function: ^compileInput /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:507:24
+      1    1.3%        Function: ^isAbsolute node:path:1156:13
+      1  100.0%          Function: ^setopts /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/glob/common.js:48:18
+      1  100.0%            Function: ^Glob /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/glob/glob.js:117:15
+      1    1.3%        Function: ^finalizeResolution node:internal/modules/esm/resolve:397:28
+      1  100.0%          Function: ^moduleResolve node:internal/modules/esm/resolve:988:23
+      1  100.0%            Function: ^defaultResolve node:internal/modules/esm/resolve:1128:30
+      1    1.3%        Function: ^endReadable node:internal/streams/readable:1328:21
+      1  100.0%          Function: ^Readable.read node:internal/streams/readable:394:35
+      1  100.0%            Function: ^resume_ node:internal/streams/readable:984:17
+      1    1.3%        Function: ^compileFunction node:vm:308:25
+      1  100.0%          Function: ^wrapSafe node:internal/modules/cjs/loader:1017:18
+      1  100.0%            Function: ^Module._compile node:internal/modules/cjs/loader:1059:37
+      1    1.3%        Function: ^Module._findPath node:internal/modules/cjs/loader:494:28
+      1  100.0%          Function: ^Module._resolveFilename node:internal/modules/cjs/loader:848:35
+      1  100.0%            Function: ^Module._load node:internal/modules/cjs/loader:757:24
+      1    1.3%        Function: ^<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/minimatch/minimatch.js:222:19
+      1  100.0%          /usr/local/bin/node
+      1  100.0%            Function: ^make /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/minimatch/minimatch.js:188:8
+     69    3.1%      Function: ^writevGeneric node:internal/stream_base_commons:122:23
+     69  100.0%        Function: ^Socket._writeGeneric node:net:791:42
+     69  100.0%          Function: ^Socket._writev node:net:823:36
+     68   98.6%            Function: ^doWrite node:internal/streams/writable:398:17
+      1    1.4%            LazyCompile: ~doWrite node:internal/streams/writable:398:17
+     61    2.8%      Function: ^read node:internal/fs/read_file_context:85:7
+     61  100.0%        Function: ^readFileAfterStat node:fs:326:27
+     42    1.9%      Function: ^readFileAfterOpen node:fs:310:27
+     42    1.9%      Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+     34   81.0%        Function: ^nativeModuleRequire node:internal/bootstrap/loaders:332:29
+      8   23.5%          Function: ~<anonymous> node:crypto:1:1
+      8  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      4   11.8%          Function: ~<anonymous> node:tls:1:1
+      4  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      4   11.8%          Function: ~<anonymous> node:http:1:1
+      4  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      3    8.8%          Function: ~<anonymous> node:_http_client:1:1
+      3  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      2    5.9%          LazyCompile: ~lazyRequire node:internal/crypto/util:67:21
+      2  100.0%            LazyCompile: ~get node:crypto:287:8
+      2    5.9%          Function: ~<anonymous> node:internal/cluster/primary:1:1
+      2  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      2    5.9%          Function: ~<anonymous> node:internal/child_process:1:1
+      2  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1    2.9%          LazyCompile: ~lazyLoadStreams node:fs:2858:25
+      1  100.0%            LazyCompile: ~get ReadStream node:fs:3001:17
+      1    2.9%          LazyCompile: ~initCJSParse node:internal/modules/esm/translators:58:28
+      1  100.0%            LazyCompile: ~commonjsStrategy node:internal/modules/esm/translators:148:60
+      1    2.9%          LazyCompile: ~get node:dns:334:8
+      1  100.0%            /usr/local/bin/node
+      1    2.9%          Function: ~<anonymous> node:internal/crypto/hkdf:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1    2.9%          Function: ~<anonymous> node:https:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1    2.9%          Function: ~<anonymous> node:child_process:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1    2.9%          Function: ~<anonymous> node:assert:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1    2.9%          Function: ~<anonymous> node:_tls_common:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1    2.9%          Function: ~<anonymous> node:_http_common:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      5   11.9%        Function: ^compileForPublicLoader node:internal/bootstrap/loaders:246:25
+      5  100.0%          Function: ^loadNativeModule node:internal/modules/cjs/helpers:44:26
+      5  100.0%            Function: ^Module._load node:internal/modules/cjs/loader:757:24
+      3    7.1%        LazyCompile: ~compileForPublicLoader node:internal/bootstrap/loaders:246:25
+      3  100.0%          LazyCompile: ~loadNativeModule node:internal/modules/cjs/helpers:44:26
+      3  100.0%            LazyCompile: ~builtinStrategy node:internal/modules/esm/translators:254:58
+     42    1.9%      Function: ^close node:internal/fs/read_file_context:111:8
+     42  100.0%        Function: ^readFileAfterRead node:internal/fs/read_file_context:25:27
+     37    1.7%      Function: ^initialize /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/passport/lib/middleware/initialize.js:51:29
+     21   56.8%        LazyCompile: *trim_prefix /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/router/index.js:293:23
+     21  100.0%          LazyCompile: *next /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/router/index.js:177:16
+     21  100.0%            Function: ^urlencodedParser /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/body-parser/lib/types/urlencoded.js:79:36
+     10   27.0%        Function: ^handle /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/router/layer.js:86:49
+     10  100.0%          Function: ^trim_prefix /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/router/index.js:293:23
+      7   70.0%            LazyCompile: *next /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/router/index.js:177:16
+      3   30.0%            Function: ^<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/router/index.js:280:64
+      6   16.2%        LazyCompile: *handle /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/router/layer.js:86:49
+      6  100.0%          Function: ^trim_prefix /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/router/index.js:293:23
+      6  100.0%            LazyCompile: *next /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/router/index.js:177:16
+     36    1.6%      Function: ^compression /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/compression/index.js:59:31
+     18   50.0%        LazyCompile: *trim_prefix /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/router/index.js:293:23
+     18  100.0%          LazyCompile: *next /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/router/index.js:177:16
+     18  100.0%            Function: ^error /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/serve-static/index.js:115:39
+     11   30.6%        Function: ^handle /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/router/layer.js:86:49
+     11  100.0%          Function: ^trim_prefix /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/router/index.js:293:23
+     10   90.9%            LazyCompile: *next /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/router/index.js:177:16
+      1    9.1%            Function: ^<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/router/index.js:280:64
+      7   19.4%        LazyCompile: *handle /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/router/layer.js:86:49
+      7  100.0%          Function: ^trim_prefix /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/router/index.js:293:23
+      7  100.0%            LazyCompile: *next /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/router/index.js:177:16
+     24    1.1%      LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
+     24  100.0%        LazyCompile: ~nativeModuleRequire node:internal/bootstrap/loaders:332:29
+      5   20.8%          LazyCompile: ~initializeCJSLoader node:internal/bootstrap/pre_execution:477:29
+      5  100.0%            LazyCompile: ~prepareMainThreadExecution node:internal/bootstrap/pre_execution:28:36
+      4   16.7%          Function: ~<anonymous> node:internal/modules/esm/loader:1:1
+      4  100.0%            LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      3   12.5%          Function: ~<anonymous> node:internal/modules/esm/fetch_module:1:1
+      3  100.0%            LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      2    8.3%          Function: ~<anonymous> node:internal/process/esm_loader:1:1
+      2  100.0%            LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      2    8.3%          Function: ~<anonymous> node:internal/modules/esm/get_source:1:1
+      2  100.0%            LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1    4.2%          LazyCompile: ~setupInspectorHooks node:internal/bootstrap/pre_execution:288:29
+      1  100.0%            LazyCompile: ~prepareMainThreadExecution node:internal/bootstrap/pre_execution:28:36
+      1    4.2%          LazyCompile: ~initializeSourceMapsHandlers node:internal/bootstrap/pre_execution:516:38
+      1  100.0%            LazyCompile: ~prepareMainThreadExecution node:internal/bootstrap/pre_execution:28:36
+      1    4.2%          LazyCompile: ~initializeReport node:internal/bootstrap/pre_execution:238:26
+      1  100.0%            LazyCompile: ~prepareMainThreadExecution node:internal/bootstrap/pre_execution:28:36
+      1    4.2%          Function: ~<anonymous> node:internal/modules/esm/resolve:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1    4.2%          Function: ~<anonymous> node:internal/modules/esm/module_map:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1    4.2%          Function: ~<anonymous> node:internal/main/run_main_module:1:1
+      1    4.2%          Function: ~<anonymous> node:internal/fs/promises:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1    4.2%          Function: ~<anonymous> node:internal/blocklist:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
+     24    1.1%      Function: ^stat node:fs:1467:14
+     24  100.0%        Function: ^sendFile /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/send/index.js:712:51
+     24  100.0%          Function: ^pipe /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/send/index.js:506:43
+     24  100.0%            Function: ^serveStatic /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/serve-static/index.js:72:31
+     23    1.0%      Function: ^handleWriteReq node:internal/stream_base_commons:45:24
+     23  100.0%        Function: ^writeGeneric node:internal/stream_base_commons:147:22
+     23  100.0%          Function: ^Socket._writeGeneric node:net:791:42
+     23  100.0%            Function: ^Socket._write node:net:828:35
+     22    1.0%      Function: ^readFile node:fs:373:18
+     22  100.0%        Function: ^go$readFile /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/graceful-fs/graceful-fs.js:117:26
+     22  100.0%          Function: ^readFile /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/graceful-fs/graceful-fs.js:111:21
+     22  100.0%            Function: ^<anonymous> node:internal/util:346:24
+     22    1.0%      Function: ^Hash node:internal/crypto/hash:58:14
+     22  100.0%        Function: ^createHash node:crypto:129:20
+     12   54.5%          Function: ^hash /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-session/index.js:596:14
+      8   66.7%            Function: ^generate /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-session/index.js:363:22
+      4   33.3%            Function: ^isModified /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-session/index.js:425:24
+     10   45.5%          Function: ^entitytag /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/etag/index.js:39:20
+     10  100.0%            Function: ^etag /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/etag/index.js:70:15
+
+     92    2.2%  __write
+     69   75.0%    /usr/local/bin/node
+      8   11.6%      /usr/local/bin/node
+      1   12.5%        LazyCompile: ~latencyWindowReducer /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb/lib/sdam/server_selection.js:158:30
+      1  100.0%          LazyCompile: ~<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb/lib/sdam/server_selection.js:192:12
+      1  100.0%            LazyCompile: ~processWaitQueue /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb/lib/sdam/topology.js:535:26
+      1   12.5%        LazyCompile: ~isIPv6 node:internal/net:35:16
+      1  100.0%          LazyCompile: ~isIP node:internal/net:39:14
+      1  100.0%            LazyCompile: ~lookup node:dns:97:16
+      1   12.5%        LazyCompile: ~configure /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/winston/lib/winston/logger.js:81:12
+      1  100.0%          LazyCompile: ~Logger /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/winston/lib/winston/logger.js:40:14
+      1  100.0%            LazyCompile: ~DerivedLogger /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/winston/lib/winston/create-logger.js:43:16
+      1   12.5%        LazyCompile: ~Kareem.filter /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/kareem/index.js:380:35
+      1  100.0%          LazyCompile: ~applyHooks /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongoose/lib/helpers/model/applyHooks.js:32:20
+      1  100.0%            LazyCompile: ~compile /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongoose/lib/model.js:4898:33
+      1   12.5%        LazyCompile: ~<anonymous> file:///home/cocolizo/Desktop/Backend/Coderhouse-Backend/16%20-%20Loggers,%20gzip,%20y%20analisis%20de%20performance/node_modules/yargs/build/lib/argsert.js:28:33
+      1  100.0%          /usr/local/bin/node
+      1  100.0%            LazyCompile: ~argsert file:///home/cocolizo/Desktop/Backend/Coderhouse-Backend/16%20-%20Loggers,%20gzip,%20y%20analisis%20de%20performance/node_modules/yargs/build/lib/argsert.js:4:24
+      1   12.5%        Function: ^parse /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/minimatch/minimatch.js:413:9
+      1  100.0%          /usr/local/bin/node
+      1  100.0%            Function: ^<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/minimatch/minimatch.js:222:19
+      1   12.5%        Function: ^<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongoose/lib/helpers/pluralize.js:86:34
+      1  100.0%          /usr/local/bin/node
+      1  100.0%            LazyCompile: ~pluralize /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongoose/lib/helpers/pluralize.js:82:19
+      1   12.5%        /usr/local/bin/node
+      1  100.0%          LazyCompile: ~<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/tarn/dist/PendingOperation.js:11:76
+      1  100.0%            /usr/local/bin/node
+      2    2.9%      Script: ~<anonymous> file:///home/cocolizo/Desktop/Backend/Coderhouse-Backend/16%20-%20Loggers,%20gzip,%20y%20analisis%20de%20performance/src/server.js:1:1
+      2  100.0%        /usr/local/bin/node
+      2  100.0%          /usr/local/bin/node
+      2  100.0%            /usr/local/bin/node
+      2    2.9%      LazyCompile: ~parseOptions /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb/lib/connection_string.js:204:22
+      2  100.0%        LazyCompile: ~MongoClient /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb/lib/mongo_client.js:62:16
+      2  100.0%          LazyCompile: ~<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongoose/lib/connection.js:798:31
+      2  100.0%            /usr/local/bin/node
+      2    2.9%      LazyCompile: ~ce file:///home/cocolizo/Desktop/Backend/Coderhouse-Backend/16%20-%20Loggers,%20gzip,%20y%20analisis%20de%20performance/node_modules/@faker-js/faker/dist/esm/chunk-GCRDD34F.mjs:12:3381
+      2  100.0%        Script: ~<anonymous> file:///home/cocolizo/Desktop/Backend/Coderhouse-Backend/16%20-%20Loggers,%20gzip,%20y%20analisis%20de%20performance/node_modules/@faker-js/faker/dist/esm/index.mjs:1:1
+      2  100.0%          /usr/local/bin/node
+      2  100.0%            /usr/local/bin/node
+      1    1.4%      LazyCompile: ~writeGeneric node:internal/stream_base_commons:147:22
+      1  100.0%        LazyCompile: ~Socket._writeGeneric node:net:791:42
+      1  100.0%          LazyCompile: ~Socket._write node:net:828:35
+      1  100.0%            LazyCompile: ~writeOrBuffer node:internal/streams/writable:365:23
+      1    1.4%      LazyCompile: ~utcDate node:internal/http:21:17
+      1  100.0%        LazyCompile: ~_storeHeader node:_http_outgoing:374:22
+      1  100.0%          LazyCompile: ~writeHead node:_http_server:270:19
+      1  100.0%            Function: ^writeHead /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/on-headers/index.js:28:29
+      1    1.4%      LazyCompile: ~stateTransition /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb/lib/utils.js:575:36
+      1  100.0%        LazyCompile: ~done /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb/lib/sdam/monitor.js:231:22
+      1  100.0%          LazyCompile: ~<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb/lib/sdam/monitor.js:237:30
+      1  100.0%            LazyCompile: ~<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb/lib/sdam/monitor.js:177:73
+      1    1.4%      LazyCompile: ~setRequestTimeout node:_http_server:767:27
+      1    1.4%      LazyCompile: ~serverUpdateHandler /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb/lib/sdam/topology.js:321:24
+      1  100.0%        LazyCompile: ~<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb/lib/sdam/topology.js:481:53
+      1  100.0%          Function: ^emit node:events:475:44
+      1  100.0%            LazyCompile: ~<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb/lib/sdam/server.js:63:55
+      1    1.4%      LazyCompile: ~ret /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:515:15
+      1  100.0%        LazyCompile: ~ExpressHandlebars._renderTemplate /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-handlebars/dist/express-handlebars.js:321:60
+      1  100.0%          LazyCompile: ~<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+      1  100.0%            LazyCompile: ~step /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      1    1.4%      LazyCompile: ~remove node:internal/linkedlist:16:16
+      1  100.0%        LazyCompile: ~unenroll node:timers:78:18
+      1  100.0%          Function: ^clearTimeout node:timers:184:22
+      1  100.0%            LazyCompile: ~setStreamTimeout node:internal/stream_base_commons:237:26
+      1    1.4%      LazyCompile: ~readFile node:internal/fs/promises:788:24
+      1  100.0%        LazyCompile: ~defaultGetSource node:internal/modules/esm/get_source:30:32
+      1  100.0%          LazyCompile: ~defaultLoad node:internal/modules/esm/load:13:27
+      1  100.0%            LazyCompile: ~load node:internal/modules/esm/loader:401:13
+      1    1.4%      LazyCompile: ~read node:internal/fs/read_file_context:85:7
+      1  100.0%        LazyCompile: ~readFileAfterStat node:fs:326:27
+      1    1.4%      LazyCompile: ~patch /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/graceful-fs/polyfills.js:29:16
+      1  100.0%        LazyCompile: ~patch /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/graceful-fs/graceful-fs.js:102:16
+      1  100.0%          Function: ~<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/graceful-fs/graceful-fs.js:1:1
+      1  100.0%            Function: ^Module._compile node:internal/modules/cjs/loader:1059:37
+      1    1.4%      LazyCompile: ~normalizeString node:path:66:25
+      1  100.0%        LazyCompile: ~resolve node:path:1091:10
+      1  100.0%          LazyCompile: ~patchProcessObject node:internal/bootstrap/pre_execution:89:28
+      1  100.0%            LazyCompile: ~prepareMainThreadExecution node:internal/bootstrap/pre_execution:28:36
+      1    1.4%      LazyCompile: ~normalizeParseOptions /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/qs/lib/parse.js:204:59
+      1  100.0%        LazyCompile: ~module.exports /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/qs/lib/parse.js:239:27
+      1  100.0%          Function: ^parseExtendedQueryString /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/utils.js:289:34
+      1  100.0%            Function: ^query /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/middleware/query.js:39:24
+      1    1.4%      LazyCompile: ~memoizeCapped /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/lodash/_memoizeCapped.js:14:23
+      1  100.0%        Function: ~<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/lodash/_stringToPath.js:1:1
+      1  100.0%          Function: ^Module._compile node:internal/modules/cjs/loader:1059:37
+      1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1114:37
+      1    1.4%      LazyCompile: ~matchHeader node:_http_outgoing:524:21
+      1  100.0%        Function: ^storeHeader node:_http_outgoing:517:21
+      1  100.0%          LazyCompile: ~processHeader node:_http_outgoing:501:23
+      1  100.0%            LazyCompile: ~_storeHeader node:_http_outgoing:374:22
+      1    1.4%      LazyCompile: ~logger node:internal/util/debuglog:95:18
+      1  100.0%        LazyCompile: ~set node:internal/modules/esm/module_map:23:6
+      1  100.0%          LazyCompile: ~#createModuleJob node:internal/modules/esm/loader:321:19
+      1  100.0%            LazyCompile: ~getModuleJob node:internal/modules/esm/loader:285:21
+      1    1.4%      LazyCompile: ~link node:internal/modules/esm/module_job:69:18
+      1  100.0%        /usr/local/bin/node
+      1    1.4%      LazyCompile: ~isErrorStackTraceLimitWritable node:internal/errors:199:40
+      1  100.0%        LazyCompile: ~captureLargerStackTrace node:internal/errors:459:35
+      1  100.0%          LazyCompile: ~NodeError node:internal/errors:343:28
+      1  100.0%            LazyCompile: ~onParseError node:internal/url:552:22
+      1    1.4%      LazyCompile: ~insert node:internal/priority_queue:34:9
+      1  100.0%        LazyCompile: ~insert node:internal/timers:350:16
+      1  100.0%          LazyCompile: ~setUnrefTimeout node:internal/timers:372:25
+      1  100.0%            LazyCompile: ~setStreamTimeout node:internal/stream_base_commons:237:26
+      1    1.4%      LazyCompile: ~initEngine /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/socket.io/dist/index.js:240:15
+      1  100.0%        LazyCompile: ~attach /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/socket.io/dist/index.js:159:11
+      1  100.0%          LazyCompile: ~Server /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/socket.io/dist/index.js:49:16
+      1  100.0%            Script: ~<anonymous> file:///home/cocolizo/Desktop/Backend/Coderhouse-Backend/16%20-%20Loggers,%20gzip,%20y%20analisis%20de%20performance/src/server.js:1:1
+      1    1.4%      LazyCompile: ~handle /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%        LazyCompile: ~trim_prefix /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/router/index.js:293:23
+      1  100.0%          LazyCompile: ~<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/router/index.js:280:64
+      1  100.0%            LazyCompile: ~process_params /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/router/index.js:338:47
+      1    1.4%      LazyCompile: ~finalizeResolution node:internal/modules/esm/resolve:397:28
+      1  100.0%        LazyCompile: ~moduleResolve node:internal/modules/esm/resolve:988:23
+      1  100.0%          LazyCompile: ~defaultResolve node:internal/modules/esm/resolve:1128:30
+      1  100.0%            LazyCompile: ~resolve node:internal/modules/esm/loader:556:16
+      1    1.4%      LazyCompile: ~expressInit /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/middleware/init.js:29:30
+      1  100.0%        LazyCompile: ~handle /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%          LazyCompile: ~trim_prefix /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/router/index.js:293:23
+      1  100.0%            LazyCompile: ~<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/router/index.js:280:64
+      1    1.4%      LazyCompile: ~end /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-session/index.js:250:27
+      1  100.0%        LazyCompile: ~end /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/compression/index.js:92:28
+      1  100.0%          LazyCompile: ~send /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/response.js:111:25
+      1  100.0%            LazyCompile: ~done /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/response.js:1033:27
+      1    1.4%      LazyCompile: ~enable /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mquery/node_modules/debug/src/common.js:162:17
+      1  100.0%        LazyCompile: ~setup /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mquery/node_modules/debug/src/common.js:7:15
+      1  100.0%          Function: ~<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mquery/node_modules/debug/src/node.js:1:1
+      1  100.0%            Function: ^Module._compile node:internal/modules/cjs/loader:1059:37
+      1    1.4%      LazyCompile: ~empty /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:97:24
+      1  100.0%        LazyCompile: ~merge /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:83:24
+      1  100.0%          LazyCompile: ~mergeSource /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:267:36
+      1  100.0%            LazyCompile: ~createFunctionContext /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:216:56
+      1    1.4%      LazyCompile: ~defaultResolve node:internal/modules/esm/resolve:1128:30
+      1  100.0%        LazyCompile: ~resolve node:internal/modules/esm/loader:556:16
+      1  100.0%          LazyCompile: ~getModuleJob node:internal/modules/esm/loader:285:21
+      1  100.0%            LazyCompile: ~import node:internal/modules/esm/loader:372:15
+      1    1.4%      LazyCompile: ~connectionListenerInternal node:_http_server:448:36
+      1  100.0%        Function: ^defaultTriggerAsyncIdScope node:internal/async_hooks:456:36
+      1  100.0%          LazyCompile: ~connectionListener node:_http_server:442:28
+      1  100.0%            Function: ^emit node:events:475:44
+      1    1.4%      LazyCompile: ~appendEscaped /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:416:40
+      1  100.0%        LazyCompile: ~compile /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1  100.0%          LazyCompile: ~compileInput /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:507:24
+      1  100.0%            LazyCompile: ~ret /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:515:15
+      1    1.4%      LazyCompile: ~__awaiter /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-handlebars/dist/express-handlebars.js:18:54
+      1  100.0%        LazyCompile: ~ExpressHandlebars._getDir /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-handlebars/dist/express-handlebars.js:327:52
+      1  100.0%          LazyCompile: ~<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-handlebars/dist/express-handlebars.js:201:47
+      1  100.0%            LazyCompile: ~step /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      1    1.4%      LazyCompile: ~Writable /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:229:18
+      1  100.0%        LazyCompile: ~Duplex /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/winston/node_modules/readable-stream/lib/_stream_duplex.js:58:16
+      1  100.0%          LazyCompile: ~Transform /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:98:19
+      1  100.0%            LazyCompile: ~Logger /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/winston/lib/winston/logger.js:40:14
+      1    1.4%      LazyCompile: ~Target.then /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/knex/lib/builder-interface-augmenter.js:23:36
+      1  100.0%        /usr/local/bin/node
+      1  100.0%          LazyCompile: ~processTicksAndRejections node:internal/process/task_queues:68:35
+      1    1.4%      LazyCompile: ~Socket.end node:net:630:32
+      1  100.0%        LazyCompile: ~<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mysql/lib/Connection.js:90:38
+      1  100.0%          Function: ^emit node:events:475:44
+      1  100.0%            LazyCompile: ~Protocol._delegateError /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mysql/lib/protocol/Protocol.js:384:45
+      1    1.4%      LazyCompile: ~Socket._final node:net:441:35
+      1  100.0%        LazyCompile: ~callFinal node:internal/streams/writable:662:19
+      1  100.0%          LazyCompile: ~prefinish node:internal/streams/writable:719:19
+      1  100.0%            Function: ^finishMaybe node:internal/streams/writable:731:21
+      1    1.4%      LazyCompile: ~Readable node:internal/streams/readable:181:18
+      1  100.0%        Function: ^Duplex node:internal/streams/duplex:52:16
+      1  100.0%          LazyCompile: ~Socket node:net:285:16
+      1  100.0%            LazyCompile: ~connect node:net:193:17
+      1    1.4%      LazyCompile: ~Module.load node:internal/modules/cjs/loader:969:33
+      1  100.0%        LazyCompile: ~Module._load node:internal/modules/cjs/loader:757:24
+      1  100.0%          LazyCompile: ~<anonymous> node:internal/modules/esm/translators:161:67
+      1  100.0%            /usr/local/bin/node
+      1    1.4%      LazyCompile: ~Module._findPath node:internal/modules/cjs/loader:494:28
+      1  100.0%        LazyCompile: ~Module._resolveFilename node:internal/modules/cjs/loader:848:35
+      1  100.0%          LazyCompile: ~<anonymous> node:internal/modules/esm/translators:233:36
+      1  100.0%            /usr/local/bin/node
+      1    1.4%      LazyCompile: ~MensajeDaoMongo file:///home/cocolizo/Desktop/Backend/Coderhouse-Backend/16%20-%20Loggers,%20gzip,%20y%20analisis%20de%20performance/src/daos/mensajes/mensajesDaos.js:4:16
+      1  100.0%        Script: ~<anonymous> file:///home/cocolizo/Desktop/Backend/Coderhouse-Backend/16%20-%20Loggers,%20gzip,%20y%20analisis%20de%20performance/src/server.js:1:1
+      1  100.0%          /usr/local/bin/node
+      1  100.0%            /usr/local/bin/node
+      1    1.4%      LazyCompile: ~Handshake /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mysql/lib/protocol/sequences/Handshake.js:9:19
+      1  100.0%        LazyCompile: ~handshake /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mysql/lib/protocol/Protocol.js:42:50
+      1  100.0%          LazyCompile: ~connect /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mysql/lib/Connection.js:64:48
+      1  100.0%            LazyCompile: ~<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/knex/lib/dialects/mysql/index.js:61:24
+      1    1.4%      LazyCompile: ~Glob._process /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/glob/glob.js:295:36
+      1  100.0%        LazyCompile: ~Glob /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/glob/glob.js:117:15
+      1  100.0%          LazyCompile: ~glob /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/glob/glob.js:62:15
+      1  100.0%            LazyCompile: ~<anonymous> node:internal/util:346:24
+      1    1.4%      LazyCompile: ~Collection /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb/lib/collection.js:66:16
+      1  100.0%        LazyCompile: ~collection /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb/lib/db.js:192:15
+      1  100.0%          LazyCompile: ~NativeCollection.onOpen /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:45:45
+      1  100.0%            LazyCompile: ~Connection.onOpen /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongoose/lib/connection.js:636:39
+      1    1.4%      LazyCompile: ~<anonymous> node:internal/per_context/primordials:421:15
+      1  100.0%        /usr/local/bin/node
+      1  100.0%          LazyCompile: ~primordials.SafePromisePrototypeFinally node:internal/per_context/primordials:418:43
+      1  100.0%            LazyCompile: ~readFile node:internal/fs/promises:788:24
+      1    1.4%      LazyCompile: ~<anonymous> file:///home/cocolizo/Desktop/Backend/Coderhouse-Backend/16%20-%20Loggers,%20gzip,%20y%20analisis%20de%20performance/node_modules/yargs/build/lib/yargs-factory.js:1317:40
+      1  100.0%        LazyCompile: ~parse file:///home/cocolizo/Desktop/Backend/Coderhouse-Backend/16%20-%20Loggers,%20gzip,%20y%20analisis%20de%20performance/node_modules/yargs/build/lib/yargs-factory.js:683:10
+      1  100.0%          LazyCompile: ~get file:///home/cocolizo/Desktop/Backend/Coderhouse-Backend/16%20-%20Loggers,%20gzip,%20y%20analisis%20de%20performance/node_modules/yargs/build/lib/yargs-factory.js:30:18
+      1  100.0%            Script: ~<anonymous> file:///home/cocolizo/Desktop/Backend/Coderhouse-Backend/16%20-%20Loggers,%20gzip,%20y%20analisis%20de%20performance/src/server.js:1:1
+      1    1.4%      LazyCompile: ~<anonymous> file:///home/cocolizo/Desktop/Backend/Coderhouse-Backend/16%20-%20Loggers,%20gzip,%20y%20analisis%20de%20performance/node_modules/yargs/build/lib/yargs-factory.js:1068:20
+      1  100.0%        LazyCompile: ~version file:///home/cocolizo/Desktop/Backend/Coderhouse-Backend/16%20-%20Loggers,%20gzip,%20y%20analisis%20de%20performance/node_modules/yargs/build/lib/yargs-factory.js:923:12
+      1  100.0%          LazyCompile: ~<anonymous> file:///home/cocolizo/Desktop/Backend/Coderhouse-Backend/16%20-%20Loggers,%20gzip,%20y%20analisis%20de%20performance/node_modules/yargs/build/lib/yargs-factory.js:27:12
+      1  100.0%            Script: ~<anonymous> file:///home/cocolizo/Desktop/Backend/Coderhouse-Backend/16%20-%20Loggers,%20gzip,%20y%20analisis%20de%20performance/src/server.js:1:1
+      1    1.4%      LazyCompile: ~<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb/lib/cmap/connection_pool.js:293:27
+      1  100.0%        LazyCompile: ~<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb/lib/sdam/server.js:210:101
+      1  100.0%          LazyCompile: ~handleOperationResult /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb/lib/sdam/server.js:285:42
+      1  100.0%            LazyCompile: ~onMessage /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb/lib/cmap/connection.js:156:14
+      1    1.4%      LazyCompile: ~<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-handlebars/dist/express-handlebars.js:251:47
+      1  100.0%        LazyCompile: ~step /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      1  100.0%          LazyCompile: ~<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-handlebars/dist/express-handlebars.js:30:40
+      1  100.0%            LazyCompile: ~fulfilled /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-handlebars/dist/express-handlebars.js:21:27
+      1    1.4%      Function: ~<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongoose/lib/document.js:1:1
+      1  100.0%        Function: ^Module._compile node:internal/modules/cjs/loader:1059:37
+      1  100.0%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1114:37
+      1  100.0%            Function: ^Module.load node:internal/modules/cjs/loader:969:33
+      1    1.4%      Function: ~<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb/lib/deps.js:1:1
+      1  100.0%        Function: ^Module._compile node:internal/modules/cjs/loader:1059:37
+      1  100.0%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1114:37
+      1  100.0%            Function: ^Module.load node:internal/modules/cjs/loader:969:33
+      1    1.4%      Function: ~<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/base64id/lib/base64id.js:1:1
+      1  100.0%        Function: ^Module._compile node:internal/modules/cjs/loader:1059:37
+      1  100.0%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1114:37
+      1  100.0%            Function: ^Module.load node:internal/modules/cjs/loader:969:33
+      1    1.4%      Function: ~<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/@mapbox/node-pre-gyp/lib/node-pre-gyp.js:1:1
+      1  100.0%        Function: ^Module._compile node:internal/modules/cjs/loader:1059:37
+      1  100.0%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1114:37
+      1  100.0%            Function: ^Module.load node:internal/modules/cjs/loader:969:33
+      1    1.4%      Function: ^toNamespacedPath node:path:1266:19
+      1  100.0%        Function: ^stat node:fs:1467:14
+      1  100.0%          Function: ^sendFile /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/send/index.js:712:51
+      1  100.0%            Function: ^pipe /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/send/index.js:506:43
+      1    1.4%      Function: ^join node:path:1166:7
+      1  100.0%        Function: ^pipe /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/send/index.js:506:43
+      1  100.0%          Function: ^serveStatic /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/serve-static/index.js:72:31
+      1  100.0%            LazyCompile: *handle /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/router/layer.js:86:49
+      1    1.4%      Function: ^fulfilled /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-handlebars/dist/express-handlebars.js:21:27
+      1    1.4%      Function: ^construct node:internal/streams/destroy:225:19
+      1  100.0%        Function: ^Readable node:internal/streams/readable:181:18
+      1  100.0%          Function: ^IncomingMessage node:_http_incoming:51:25
+      1  100.0%            Function: ^parserOnHeadersComplete node:_http_common:77:33
+      1    1.4%      Function: ^<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/source-map/lib/source-node.js:174:29
+      1  100.0%        LazyCompile: *wrap /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:101:22
+      1  100.0%          Function: ^appendToBuffer /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:42:42
+      1  100.0%            Function: ^appendEscaped /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:416:40
+      1    1.4%      Function: ^<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-session/index.js:598:43
+      1  100.0%        /usr/local/bin/node
+      1  100.0%          Function: ^hash /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-session/index.js:596:14
+      1  100.0%            Function: ^generate /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-session/index.js:363:22
+
+     82    1.9%  /usr/lib/x86_64-linux-gnu/libc-2.31.so
+     56   68.3%    /usr/local/bin/node
+     22   39.3%      /usr/local/bin/node
+      6   27.3%        LazyCompile: *parse /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:269:30
+      6  100.0%          Function: ^parseWithoutProcessing /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js:33:32
+      6  100.0%            Function: ^parse /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js:51:15
+      6   27.3%        Function: ^FastBuffer node:internal/buffer:958:14
+      5   83.3%          Function: ^createUnsafeBuffer node:internal/buffer:1059:28
+      5  100.0%            Function: ^createPool node:buffer:151:20
+      1   16.7%          Function: ^randomBytes node:internal/crypto/random:91:21
+      1  100.0%            Function: ^randomBytesSync /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/random-bytes/index.js:72:25
+      2    9.1%        LazyCompile: *parse /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/minimatch/minimatch.js:413:9
+      2  100.0%          /usr/local/bin/node
+      2  100.0%            Function: ^<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/minimatch/minimatch.js:222:19
+      1    4.5%        Script: ~<anonymous> file:///home/cocolizo/Desktop/Backend/Coderhouse-Backend/16%20-%20Loggers,%20gzip,%20y%20analisis%20de%20performance/src/contenedores/contenedormongo.js:1:1
+      1  100.0%          /usr/local/bin/node
+      1  100.0%            /usr/local/bin/node
+      1    4.5%        LazyCompile: ~<anonymous> file:///home/cocolizo/Desktop/Backend/Coderhouse-Backend/16%20-%20Loggers,%20gzip,%20y%20analisis%20de%20performance/node_modules/yargs/build/lib/yargs-factory.js:1031:21
+      1  100.0%          LazyCompile: ~YargsInstance file:///home/cocolizo/Desktop/Backend/Coderhouse-Backend/16%20-%20Loggers,%20gzip,%20y%20analisis%20de%20performance/node_modules/yargs/build/lib/yargs-factory.js:76:16
+      1  100.0%            LazyCompile: ~<anonymous> file:///home/cocolizo/Desktop/Backend/Coderhouse-Backend/16%20-%20Loggers,%20gzip,%20y%20analisis%20de%20performance/node_modules/yargs/build/lib/yargs-factory.js:27:12
+      1    4.5%        LazyCompile: *strEscape node:internal/util/inspect:475:19
+      1  100.0%          Function: ^<anonymous> node:internal/util/inspect:1534:14
+      1  100.0%            /usr/local/bin/node
+      1    4.5%        Function: ~<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongoose/lib/aggregate.js:1:1
+      1  100.0%          Function: ^Module._compile node:internal/modules/cjs/loader:1059:37
+      1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1114:37
+      1    4.5%        Function: ^prepareMustache /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/helpers.js:99:25
+      1  100.0%          LazyCompile: *anonymous /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:12:42
+      1  100.0%            LazyCompile: *parse /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:269:30
+      1    4.5%        Function: ^normalize node:path:1127:12
+      1  100.0%          Function: ^join node:path:1166:7
+      1  100.0%            Function: ^resolve /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/view.js:146:42
+      1    4.5%        Function: ^Socket._writeGeneric node:net:791:42
+      1  100.0%          Function: ^Socket._writev node:net:823:36
+      1  100.0%            Function: ^doWrite node:internal/streams/writable:398:17
+      1    4.5%        Function: ^Module.load node:internal/modules/cjs/loader:969:33
+      1  100.0%          Function: ^Module._load node:internal/modules/cjs/loader:757:24
+      1  100.0%            Function: ^Module.require node:internal/modules/cjs/loader:997:36
+      7   12.5%      Function: ^<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/logform/timestamp.js:14:25
+      7  100.0%        Function: ^<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/logform/combine.js:17:10
+      7  100.0%          Function: ^_transform /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/winston/lib/winston/logger.js:275:13
+      7  100.0%            Function: ^Transform._read /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:171:38
+      3    5.4%      LazyCompile: *compile /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      3  100.0%        Function: ^compileInput /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:507:24
+      3  100.0%          Function: ^ret /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:515:15
+      3  100.0%            Function: ^ExpressHandlebars._renderTemplate /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-handlebars/dist/express-handlebars.js:321:60
+      1    1.8%      LazyCompile: ~utf8Encode /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb-connection-string-url/node_modules/whatwg-url/lib/encoding.js:5:20
+      1  100.0%        LazyCompile: ~utf8PercentEncodeCodePointInternal /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb-connection-string-url/node_modules/whatwg-url/lib/percent-encoding.js:97:44
+      1  100.0%          LazyCompile: ~utf8PercentEncodeString /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb-connection-string-url/node_modules/whatwg-url/lib/percent-encoding.js:118:33
+      1  100.0%            LazyCompile: ~parseOpaqueHost /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb-connection-string-url/node_modules/whatwg-url/lib/url-state-machine.js:379:25
+      1    1.8%      LazyCompile: ~socketOnClose node:_http_server:593:23
+      1  100.0%        LazyCompile: *emit node:events:475:44
+      1  100.0%          LazyCompile: ~<anonymous> node:net:707:24
+      1    1.8%      LazyCompile: ~realpathSync node:fs:2425:22
+      1  100.0%        LazyCompile: ~toRealPath node:internal/modules/cjs/loader:393:20
+      1  100.0%          LazyCompile: ~Module._findPath node:internal/modules/cjs/loader:494:28
+      1  100.0%            LazyCompile: ~resolveMainPath node:internal/modules/run_main:15:25
+      1    1.8%      LazyCompile: ~onceWrapper node:events:636:21
+      1  100.0%        Function: ^emit node:events:475:44
+      1  100.0%          LazyCompile: ~<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/winston/lib/winston/transports/file.js:550:19
+      1  100.0%            Function: ^emit node:events:475:44
+      1    1.8%      LazyCompile: ~onMessage /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb/lib/cmap/connection.js:156:14
+      1  100.0%        LazyCompile: ~<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb/lib/cmap/connection.js:60:44
+      1  100.0%          Function: ^emit node:events:475:44
+      1  100.0%            LazyCompile: ~processIncomingData /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb/lib/cmap/message_stream.js:84:29
+      1    1.8%      LazyCompile: ~getPackageConfig node:internal/modules/esm/resolve:197:26
+      1  100.0%        LazyCompile: ~packageResolve node:internal/modules/esm/resolve:897:24
+      1  100.0%          LazyCompile: ~moduleResolve node:internal/modules/esm/resolve:988:23
+      1  100.0%            LazyCompile: ~defaultResolve node:internal/modules/esm/resolve:1128:30
+      1    1.8%      LazyCompile: ~getBaseIntrinsic /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/get-intrinsic/index.js:226:49
+      1  100.0%        LazyCompile: ~GetIntrinsic /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/get-intrinsic/index.js:253:39
+      1  100.0%          Function: ~<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/call-bind/index.js:1:1
+      1  100.0%            Function: ^Module._compile node:internal/modules/cjs/loader:1059:37
+      1    1.8%      LazyCompile: ~createFunctionContext /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:216:56
+      1  100.0%        LazyCompile: ~compile /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1  100.0%          LazyCompile: ~compileInput /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:507:24
+      1  100.0%            LazyCompile: ~ret /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:515:15
+      1    1.8%      LazyCompile: ~authenticate /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/passport/lib/middleware/authenticate.js:94:31
+      1  100.0%        Function: ^handle /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%          Function: ^trim_prefix /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/router/index.js:293:23
+      1  100.0%            Function: ^<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/router/index.js:280:64
+      1    1.8%      LazyCompile: ~Server /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb/lib/sdam/server.js:28:16
+      1  100.0%        LazyCompile: ~createAndConnectServer /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb/lib/sdam/topology.js:475:32
+      1  100.0%          LazyCompile: ~<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb/lib/sdam/topology.js:173:57
+      1  100.0%            /usr/local/bin/node
+      1    1.8%      LazyCompile: ~Schema.path /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongoose/lib/schema.js:831:33
+      1  100.0%        LazyCompile: ~add /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongoose/lib/schema.js:552:36
+      1  100.0%          LazyCompile: ~Schema /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongoose/lib/schema.js:96:16
+      1  100.0%            LazyCompile: ~Mongoose.model /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongoose/lib/index.js:509:36
+      1    1.8%      LazyCompile: ~Connection /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb/lib/cmap/connection.js:37:16
+      1  100.0%        LazyCompile: ~<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb/lib/cmap/connect.js:31:63
+      1  100.0%          LazyCompile: ~callback /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb/lib/cmap/connect.js:261:31
+      1  100.0%            LazyCompile: ~connectHandler /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb/lib/cmap/connect.js:305:28
+      1    1.8%      LazyCompile: ~<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/router/index.js:280:64
+      1  100.0%        LazyCompile: ~process_params /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/router/index.js:338:47
+      1  100.0%          LazyCompile: ~next /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/router/index.js:177:16
+      1  100.0%            LazyCompile: ~handle /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/router/index.js:136:31
+      1    1.8%      LazyCompile: *relative node:path:1190:11
+      1  100.0%        LazyCompile: *<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-handlebars/dist/express-handlebars.js:251:47
+      1  100.0%          LazyCompile: *step /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      1  100.0%            LazyCompile: *<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-handlebars/dist/express-handlebars.js:30:40
+      1    1.8%      LazyCompile: *realpathSync node:fs:2425:22
+      1  100.0%        Function: ^toRealPath node:internal/modules/cjs/loader:393:20
+      1  100.0%          Function: ^tryFile node:internal/modules/cjs/loader:384:17
+      1  100.0%            Function: ^tryExtensions node:internal/modules/cjs/loader:400:23
+      1    1.8%      LazyCompile: *next /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/router/index.js:177:16
+      1  100.0%        Function: ^handle /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/router/index.js:136:31
+      1  100.0%          Function: ^handle /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/application.js:165:29
+      1  100.0%            Function: ^app /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/express.js:38:21
+      1    1.8%      LazyCompile: *each /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:91:22
+      1  100.0%        Function: ^mergeSource /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:267:36
+      1  100.0%          LazyCompile: *compile /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1  100.0%            Function: ^compileInput /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:507:24
+      1    1.8%      LazyCompile: *SourceNode_walk /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/source-map/lib/source-node.js:221:53
+      1  100.0%        LazyCompile: *SourceNode_walk /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/source-map/lib/source-node.js:221:53
+      1  100.0%          LazyCompile: *SourceNode_walk /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/source-map/lib/source-node.js:221:53
+      1  100.0%            LazyCompile: *SourceNode_walk /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/source-map/lib/source-node.js:221:53
+      1    1.8%      LazyCompile: *Module._findPath node:internal/modules/cjs/loader:494:28
+      1  100.0%        Function: ^Module._resolveFilename node:internal/modules/cjs/loader:848:35
+      1  100.0%          Function: ^Module._load node:internal/modules/cjs/loader:757:24
+      1  100.0%            Function: ^Module.require node:internal/modules/cjs/loader:997:36
+      1    1.8%      Function: ~<anonymous> node:internal/modules/cjs/helpers:1:1
+      1  100.0%        LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1  100.0%          LazyCompile: ~nativeModuleRequire node:internal/bootstrap/loaders:332:29
+      1  100.0%            Function: ~<anonymous> node:internal/source_map/source_map_cache:1:1
+      1    1.8%      Function: ^inflight /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/inflight/inflight.js:7:19
+      1  100.0%        Function: ^wrapper /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/wrappy/wrappy.js:19:19
+      1  100.0%          Function: ^Glob._readdir /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/glob/glob.js:525:36
+      1  100.0%            Function: ^Glob._processGlobStar /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/glob/glob.js:623:44
+      1    1.8%      Function: ^hash /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-session/index.js:596:14
+      1  100.0%        Function: ^isModified /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-session/index.js:425:24
+      1  100.0%          Function: ^shouldSetCookie /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-session/index.js:464:29
+      1  100.0%            Function: ^<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-session/index.js:220:28
+      1    1.8%      Function: ^_addHeaderLine node:_http_incoming:337:24
+      1  100.0%        Function: ^get node:_http_incoming:108:16
+      1  100.0%          Function: ^parserOnIncoming node:_http_server:857:26
+      1  100.0%            Function: ^parserOnHeadersComplete node:_http_common:77:33
+      1    1.8%      Function: ^Module._findPath node:internal/modules/cjs/loader:494:28
+      1  100.0%        LazyCompile: ~Module._resolveFilename node:internal/modules/cjs/loader:848:35
+      1  100.0%          LazyCompile: ~Module._load node:internal/modules/cjs/loader:757:24
+      1  100.0%            Function: ^Module.require node:internal/modules/cjs/loader:997:36
+      1    1.2%    LazyCompile: *Module._findPath node:internal/modules/cjs/loader:494:28
+      1  100.0%      Function: ^Module._resolveFilename node:internal/modules/cjs/loader:848:35
+      1  100.0%        Function: ^Module._load node:internal/modules/cjs/loader:757:24
+      1  100.0%          Function: ^Module.require node:internal/modules/cjs/loader:997:36
+      1  100.0%            Function: ^require node:internal/modules/cjs/helpers:101:31
+
+     54    1.3%  [vdso]
+     48   88.9%    /usr/local/bin/node
+      5   10.4%      Function: ^get maxAge /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-session/session/cookie.js:104:13
+      5  100.0%        Function: ^set expires /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-session/session/cookie.js:60:14
+      5  100.0%          Function: ^set maxAge /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-session/session/cookie.js:83:13
+      3   60.0%            Function: ^resetMaxAge /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-session/session/session.js:58:68
+      2   40.0%            /usr/local/bin/node
+      5   10.4%      /usr/local/bin/node
+      1   20.0%        LazyCompile: ~toIdentifier /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/toidentifier/index.js:24:23
+      1  100.0%          LazyCompile: ~forEachCode /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/http-errors/index.js:259:38
+      1  100.0%            /usr/local/bin/node
+      1   20.0%        LazyCompile: ~set pathname node:internal/url:887:15
+      1  100.0%          /usr/local/bin/node
+      1  100.0%            LazyCompile: ~pathToFileURL node:internal/url:1458:23
+      1   20.0%        LazyCompile: ~make /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/minimatch/minimatch.js:188:8
+      1  100.0%          LazyCompile: ~Minimatch /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/minimatch/minimatch.js:163:15
+      1  100.0%            LazyCompile: ~setopts /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/glob/common.js:48:18
+      1   20.0%        LazyCompile: ~compileFunction node:vm:308:25
+      1  100.0%          LazyCompile: ~wrapSafe node:internal/modules/cjs/loader:1017:18
+      1  100.0%            LazyCompile: ~Module._compile node:internal/modules/cjs/loader:1059:37
+      1   20.0%        LazyCompile: ~checkIsHttpToken node:_http_common:221:26
+      1  100.0%          LazyCompile: ~<anonymous> node:_http_outgoing:558:44
+      1  100.0%            LazyCompile: ~setHeader node:_http_outgoing:574:57
+      3    6.3%      Function: ^set maxAge /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-session/session/cookie.js:83:13
+      2   66.7%        /usr/local/bin/node
+      2  100.0%          Function: ^Cookie /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-session/session/cookie.js:25:46
+      2  100.0%            Function: ^store.generate /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-session/index.js:158:28
+      1   33.3%        Function: ^resetMaxAge /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-session/session/session.js:58:68
+      1  100.0%          Function: ^touch /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-session/session/session.js:47:56
+      1  100.0%            Function: ^end /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-session/index.js:250:27
+      2    4.2%      Function: ^resetQueue /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/graceful-fs/graceful-fs.js:383:21
+      2  100.0%        Function: ^closeSync /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/graceful-fs/graceful-fs.js:72:24
+      2  100.0%          Function: ^readFileSync node:fs:450:22
+      2  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1114:37
+      1    2.1%      LazyCompile: ~vary /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/vary/index.js:133:15
+      1  100.0%        LazyCompile: ~onResponseHeaders /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/compression/index.js:140:47
+      1  100.0%          LazyCompile: ~writeHead /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/on-headers/index.js:28:29
+      1  100.0%            LazyCompile: ~_implicitHeader node:_http_server:265:68
+      1    2.1%      LazyCompile: ~truncate /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/memory-pager/index.js:128:19
+      1  100.0%        Function: ^Pager.set /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/memory-pager/index.js:81:32
+      1  100.0%          LazyCompile: ~Bitfield /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/sparse-bitfield/index.js:5:19
+      1  100.0%            LazyCompile: ~Bitfield /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/sparse-bitfield/index.js:5:19
+      1    2.1%      LazyCompile: ~resolveOptions /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb/lib/utils.js:741:24
+      1  100.0%        LazyCompile: ~createCollection /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb/lib/db.js:153:21
+      1  100.0%          LazyCompile: ~createCollection /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongoose/lib/connection.js:400:82
+      1  100.0%            LazyCompile: ~Connection.onOpen /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongoose/lib/connection.js:636:39
+      1    2.1%      LazyCompile: ~render /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/application.js:548:29
+      1  100.0%        LazyCompile: ~render /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/response.js:1016:29
+      1  100.0%          LazyCompile: ~<anonymous> file:///home/cocolizo/Desktop/Backend/Coderhouse-Backend/16%20-%20Loggers,%20gzip,%20y%20analisis%20de%20performance/src/server.js:300:20
+      1  100.0%            LazyCompile: ~handle /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/router/layer.js:86:49
+      1    2.1%      LazyCompile: ~readFile node:fs:373:18
+      1  100.0%        LazyCompile: ~go$readFile /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/graceful-fs/graceful-fs.js:117:26
+      1  100.0%          LazyCompile: ~readFile /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/graceful-fs/graceful-fs.js:111:21
+      1  100.0%            LazyCompile: ~<anonymous> node:internal/util:346:24
+      1    2.1%      LazyCompile: ~parseOptions /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb/lib/connection_string.js:204:22
+      1  100.0%        LazyCompile: ~MongoClient /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb/lib/mongo_client.js:62:16
+      1  100.0%          LazyCompile: ~<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongoose/lib/connection.js:798:31
+      1  100.0%            /usr/local/bin/node
+      1    2.1%      LazyCompile: ~moduleStrategy node:internal/modules/esm/translators:112:56
+      1  100.0%        LazyCompile: ~moduleProvider node:internal/modules/esm/loader:322:28
+      1  100.0%          /usr/local/bin/node
+      1    2.1%      LazyCompile: ~initCJSParse node:internal/modules/esm/translators:58:28
+      1  100.0%        LazyCompile: ~commonjsStrategy node:internal/modules/esm/translators:148:60
+      1  100.0%          Function: ^moduleProvider node:internal/modules/esm/loader:322:28
+      1  100.0%            /usr/local/bin/node
+      1    2.1%      LazyCompile: ~hash /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-session/index.js:596:14
+      1  100.0%        LazyCompile: ~generate /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-session/index.js:363:22
+      1  100.0%          LazyCompile: ~session /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-session/index.js:179:26
+      1  100.0%            LazyCompile: ~handle /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/router/layer.js:86:49
+      1    2.1%      LazyCompile: ~get isPinned /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb/lib/transactions.js:88:17
+      1  100.0%        LazyCompile: ~get isPinned /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb/lib/sessions.js:126:17
+      1  100.0%          LazyCompile: ~executeWithServerSelection /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb/lib/operations/execute_operation.js:85:36
+      1  100.0%            LazyCompile: ~<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb/lib/operations/execute_operation.js:16:48
+      1    2.1%      LazyCompile: ~fromString node:buffer:432:20
+      1  100.0%        LazyCompile: ~from node:buffer:296:28
+      1  100.0%          LazyCompile: ~send /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/response.js:111:25
+      1  100.0%            LazyCompile: ~done /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express/lib/response.js:1033:27
+      1    2.1%      LazyCompile: ~fromOptions /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb/lib/write_concern.js:40:23
+      1  100.0%        LazyCompile: ~Transaction /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb/lib/transactions.js:57:16
+      1  100.0%          LazyCompile: ~ClientSession /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb/lib/sessions.js:45:16
+      1  100.0%            LazyCompile: ~startSession /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb/lib/mongo_client.js:236:17
+      1    2.1%      LazyCompile: ~debug node:internal/util/debuglog:76:15
+      1  100.0%        Function: ^logger node:internal/util/debuglog:95:18
+      1  100.0%          LazyCompile: ~connect node:net:193:17
+      1  100.0%            LazyCompile: ~makeConnection /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb/lib/cmap/connect.js:248:24
+      1    2.1%      LazyCompile: ~configure /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/winston/lib/winston/logger.js:81:12
+      1  100.0%        LazyCompile: ~Logger /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/winston/lib/winston/logger.js:40:14
+      1  100.0%          LazyCompile: ~DerivedLogger /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/winston/lib/winston/create-logger.js:43:16
+      1  100.0%            LazyCompile: ~module.exports /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/winston/lib/winston/create-logger.js:25:27
+      1    2.1%      LazyCompile: ~commonjsStrategy node:internal/modules/esm/translators:148:60
+      1  100.0%        Function: ^moduleProvider node:internal/modules/esm/loader:322:28
+      1  100.0%          /usr/local/bin/node
+      1    2.1%      LazyCompile: ~_unrefTimer node:net:431:52
+      1  100.0%        LazyCompile: ~emitLookup node:net:1074:46
+      1  100.0%          LazyCompile: ~onlookup node:dns:69:18
+      1    2.1%      LazyCompile: ~URLSearchParamsImpl /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb-connection-string-url/node_modules/whatwg-url/lib/URLSearchParams-impl.js:5:14
+      1  100.0%        LazyCompile: ~exports.setup /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb-connection-string-url/node_modules/whatwg-url/lib/URLSearchParams.js:62:17
+      1  100.0%          LazyCompile: ~exports.create /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb-connection-string-url/node_modules/whatwg-url/lib/URLSearchParams.js:50:18
+      1  100.0%            LazyCompile: ~exports.createImpl /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongodb-connection-string-url/node_modules/whatwg-url/lib/URLSearchParams.js:55:22
+      1    2.1%      LazyCompile: ~Socket._destroy node:net:689:37
+      1  100.0%        LazyCompile: ~_destroy node:internal/streams/destroy:70:18
+      1  100.0%          LazyCompile: ~destroy node:internal/streams/destroy:32:17
+      1  100.0%            LazyCompile: ~afterConnect node:net:1141:22
+      1    2.1%      LazyCompile: ~ServerResponse node:_http_server:178:24
+      1  100.0%        LazyCompile: ~parserOnIncoming node:_http_server:857:26
+      1  100.0%          Function: ^parserOnHeadersComplete node:_http_common:77:33
+      1    2.1%      LazyCompile: ~NodeError node:internal/errors:343:28
+      1  100.0%        LazyCompile: ~onParseError node:internal/url:552:22
+      1  100.0%          /usr/local/bin/node
+      1  100.0%            Function: ^URL node:internal/url:621:14
+      1    2.1%      LazyCompile: ~Module._findPath node:internal/modules/cjs/loader:494:28
+      1  100.0%        LazyCompile: ~Module._resolveFilename node:internal/modules/cjs/loader:848:35
+      1  100.0%          LazyCompile: ~Module._load node:internal/modules/cjs/loader:757:24
+      1  100.0%            LazyCompile: ~Module.require node:internal/modules/cjs/loader:997:36
+      1    2.1%      LazyCompile: ~Kareem.filter /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/kareem/index.js:380:35
+      1  100.0%        LazyCompile: ~applyStaticHooks /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongoose/lib/helpers/model/applyStaticHooks.js:6:43
+      1  100.0%          LazyCompile: ~compile /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongoose/lib/model.js:4898:33
+      1  100.0%            LazyCompile: ~Mongoose._model /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/mongoose/lib/index.js:572:37
+      1    2.1%      LazyCompile: ~Immediate node:internal/timers:602:14
+      1  100.0%        LazyCompile: ~setImmediate node:timers:278:22
+      1  100.0%          LazyCompile: ~log /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/winston/lib/winston/transports/console.js:44:6
+      1  100.0%            LazyCompile: ~_write /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/winston-transport/index.js:69:51
+      1    2.1%      LazyCompile: ~<anonymous> file:///home/cocolizo/Desktop/Backend/Coderhouse-Backend/16%20-%20Loggers,%20gzip,%20y%20analisis%20de%20performance/node_modules/yargs-parser/build/lib/yargs-parser.js:722:52
+      1  100.0%        /usr/local/bin/node
+      1  100.0%          LazyCompile: ~applyDefaultsAndAliases file:///home/cocolizo/Desktop/Backend/Coderhouse-Backend/16%20-%20Loggers,%20gzip,%20y%20analisis%20de%20performance/node_modules/yargs-parser/build/lib/yargs-parser.js:721:41
+      1  100.0%            LazyCompile: ~setConfig file:///home/cocolizo/Desktop/Backend/Coderhouse-Backend/16%20-%20Loggers,%20gzip,%20y%20analisis%20de%20performance/node_modules/yargs-parser/build/lib/yargs-parser.js:600:27
+      1    2.1%      LazyCompile: ~<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-handlebars/dist/express-handlebars.js:251:47
+      1  100.0%        LazyCompile: ~step /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      1  100.0%          LazyCompile: ~<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-handlebars/dist/express-handlebars.js:30:40
+      1  100.0%            LazyCompile: ~<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/express-handlebars/dist/express-handlebars.js:20:46
+      1    2.1%      LazyCompile: *wrap /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:101:22
+      1  100.0%        Function: ^push /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:868:22
+      1  100.0%          Function: ^replaceStack /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:892:38
+      1  100.0%            Function: ^resolvePath /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:492:36
+      1    2.1%      Function: ~<anonymous> node:internal/main/run_main_module:1:1
+      1    2.1%      Function: ~<anonymous> :1:20
+      1  100.0%        LazyCompile: ~main /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/runtime.js:207:18
+      1  100.0%          LazyCompile: ~ret /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/runtime.js:188:15
+      1  100.0%            LazyCompile: ~ret /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:515:15
+      1    2.1%      Function: ~<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/supports-color/index.js:1:1
+      1  100.0%        Function: ^Module._compile node:internal/modules/cjs/loader:1059:37
+      1  100.0%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1114:37
+      1  100.0%            Function: ^Module.load node:internal/modules/cjs/loader:969:33
+      1    2.1%      Function: ~<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/sift/lib/index.js:138:50
+      1  100.0%        Function: ~<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/sift/lib/index.js:5:19
+      1  100.0%          Function: ~<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/sift/lib/index.js:1:11
+      1  100.0%            Function: ~<anonymous> /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/sift/lib/index.js:1:1
+      1    2.1%      Function: ^getOptions node:internal/fs/utils:315:20
+      1  100.0%        LazyCompile: ~readFileSync node:fs:450:22
+      1  100.0%          LazyCompile: ~cjsPreparseModuleExports node:internal/modules/esm/translators:194:34
+      1  100.0%            LazyCompile: ~commonjsStrategy node:internal/modules/esm/translators:148:60
+      1    2.1%      Function: ^afterWriteDispatched node:internal/stream_base_commons:155:30
+      1  100.0%        Function: ^writevGeneric node:internal/stream_base_commons:122:23
+      1  100.0%          Function: ^Socket._writeGeneric node:net:791:42
+      1  100.0%            Function: ^Socket._writev node:net:823:36
+      1    2.1%      Function: ^SourceNode_prepend /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/source-map/lib/source-node.js:197:59
+      1  100.0%        Function: ^mergeSource /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:267:36
+      1  100.0%          LazyCompile: *compile /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1  100.0%            Function: ^compileInput /home/cocolizo/Desktop/Backend/Coderhouse-Backend/16 - Loggers, gzip, y analisis de performance/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:507:24
+
