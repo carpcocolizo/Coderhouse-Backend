@@ -1,0 +1,24 @@
+{"level":"error","message":"Se encontro el siguiente error: Error: connect ECONNREFUSED 127.0.0.1:3306","timestamp":"2022-09-11T16:11:55.581Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-09-11T16:12:24.509Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-09-11T16:12:30.968Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-09-11T16:12:37.016Z"}
+{"level":"error","message":"Se encontro el siguiente error: Error: connect ECONNREFUSED 127.0.0.1:3306","timestamp":"2022-09-11T16:12:40.921Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-09-11T16:12:41.008Z"}
+{"level":"error","message":"Se encontro el siguiente error: Error: connect ECONNREFUSED 127.0.0.1:3306","timestamp":"2022-09-11T16:14:23.007Z"}
+{"level":"error","message":"Se encontro el siguiente error: Error: connect ECONNREFUSED 127.0.0.1:3306","timestamp":"2022-09-11T16:14:25.320Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-09-11T16:14:37.868Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-09-11T16:14:39.079Z"}
+{"level":"error","message":"Se encontro el siguiente error: Error: connect ECONNREFUSED 127.0.0.1:3306","timestamp":"2022-09-11T16:14:43.146Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-09-11T16:14:43.251Z"}
+{"level":"error","message":"Se encontro el siguiente error: Error: connect ECONNREFUSED 127.0.0.1:3306","timestamp":"2022-09-11T16:23:16.657Z"}
+{"level":"error","message":"Se encontro el siguiente error: Error: connect ECONNREFUSED 127.0.0.1:3306","timestamp":"2022-09-11T16:23:18.759Z"}
+{"level":"error","message":"Se encontro el siguiente error: Error: connect ECONNREFUSED 127.0.0.1:3306","timestamp":"2022-09-11T16:28:58.318Z"}
+{"level":"error","message":"Se encontro el siguiente error: Error: connect ECONNREFUSED 127.0.0.1:3306","timestamp":"2022-09-11T16:34:59.390Z"}
+{"level":"error","message":"Se encontro el siguiente error: Error: connect ECONNREFUSED 127.0.0.1:3306","timestamp":"2022-09-11T16:35:02.754Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-09-11T16:35:07.926Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-09-11T16:35:12.081Z"}
+{"level":"error","message":"Se encontro el siguiente error: Error: SQLITE_CANTOPEN: unable to open database file","timestamp":"2022-09-11T16:55:05.497Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-09-11T16:55:58.840Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-09-11T16:56:03.100Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-09-11T16:56:30.886Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-09-11T16:56:32.094Z"}

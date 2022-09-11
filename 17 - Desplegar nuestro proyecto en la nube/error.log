@@ -1,0 +1,11 @@
+{"level":"error","message":"Se encontro el siguiente error: Error: connect ECONNREFUSED 127.0.0.1:3306","timestamp":"2022-09-11T16:11:55.581Z"}
+{"level":"error","message":"Se encontro el siguiente error: Error: connect ECONNREFUSED 127.0.0.1:3306","timestamp":"2022-09-11T16:12:40.921Z"}
+{"level":"error","message":"Se encontro el siguiente error: Error: connect ECONNREFUSED 127.0.0.1:3306","timestamp":"2022-09-11T16:14:23.007Z"}
+{"level":"error","message":"Se encontro el siguiente error: Error: connect ECONNREFUSED 127.0.0.1:3306","timestamp":"2022-09-11T16:14:25.320Z"}
+{"level":"error","message":"Se encontro el siguiente error: Error: connect ECONNREFUSED 127.0.0.1:3306","timestamp":"2022-09-11T16:14:43.146Z"}
+{"level":"error","message":"Se encontro el siguiente error: Error: connect ECONNREFUSED 127.0.0.1:3306","timestamp":"2022-09-11T16:23:16.657Z"}
+{"level":"error","message":"Se encontro el siguiente error: Error: connect ECONNREFUSED 127.0.0.1:3306","timestamp":"2022-09-11T16:23:18.759Z"}
+{"level":"error","message":"Se encontro el siguiente error: Error: connect ECONNREFUSED 127.0.0.1:3306","timestamp":"2022-09-11T16:28:58.318Z"}
+{"level":"error","message":"Se encontro el siguiente error: Error: connect ECONNREFUSED 127.0.0.1:3306","timestamp":"2022-09-11T16:34:59.390Z"}
+{"level":"error","message":"Se encontro el siguiente error: Error: connect ECONNREFUSED 127.0.0.1:3306","timestamp":"2022-09-11T16:35:02.754Z"}
+{"level":"error","message":"Se encontro el siguiente error: Error: SQLITE_CANTOPEN: unable to open database file","timestamp":"2022-09-11T16:55:05.497Z"}
