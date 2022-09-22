@@ -14,6 +14,16 @@ const getProducts = async (req, res) => {
     }
 }
 
+const getProductsResponse = async (req, res) => {
+    try {
+        res.json(await listaDeProductos.getAll())
+    } catch(error) {
+        logger.log("error", "Hubo un error:" + error)
+        res.sendStatus(500)
+    }
+}
+
+
 const getProductsById = async (req, res) => {
     try {
       const id = req.params.id
@@ -63,5 +73,5 @@ const deleteProducts = async (req, res) => {
     }
 }
 
-export { getProducts, getProductsById, postProducts, putProducts, deleteProducts }
+export { getProducts, getProductsById, postProducts, putProducts, deleteProducts, getProductsResponse }
 export default listaDeProductos

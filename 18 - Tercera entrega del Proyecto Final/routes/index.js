@@ -1,5 +1,5 @@
 import { Router } from "express"
-import { getProducts, getProductsById, postProducts, putProducts, deleteProducts } from "../controllers/productosController.js"
+import { getProductsResponse, getProductsById, postProducts, putProducts, deleteProducts } from "../controllers/productosController.js"
 import { getCarrito, addToCarrito, createCarrito, deleteCarrito, deleteFromCarrito } from "../controllers/carritoController.js"
 const router = Router()
 const isAdmin = true
@@ -20,9 +20,9 @@ function checkAdmin(req, res, next) {
     }
 }
 
-router.get('/productos',checkAuthentication ,getProducts)
+router.get('/productos', checkAuthentication,getProductsResponse)
 
-router.get('/productos/:id',checkAuthentication, getProductsById)
+router.get('/productos/:id', checkAuthentication, getProductsById)
 
 router.post('/productos', checkAdmin, postProducts)
         

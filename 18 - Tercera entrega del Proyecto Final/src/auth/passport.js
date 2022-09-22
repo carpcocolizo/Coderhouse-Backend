@@ -1,7 +1,7 @@
 import LocalPass from "passport-local";
 import User from "../models/models.js";
 import bcrypt from "bcrypt";
-import { createCarrito } from "../../controllers/carritoController.js";
+import { createCarritoOnPage } from "../../controllers/carritoController.js";
 import { sendEmail } from "../nodemailer.js";
 import { logger } from "../logger.js";
 const LocalStrategy = LocalPass.Strategy;
@@ -24,7 +24,7 @@ const registerStrategy = new LocalStrategy(
         return done(null, null);
       }
       
-      const carrito = await createCarrito()
+      const carrito = await createCarritoOnPage()
 
       const newUser = {
         username,

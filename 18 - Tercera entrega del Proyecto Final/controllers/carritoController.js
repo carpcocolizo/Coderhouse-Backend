@@ -44,17 +44,27 @@ const addToCarrito = async (req, res) => {
     }
 }
 
-const createCarrito = async () => {           // NO HAY MAS (req, res)
+const createCarrito = async (req, res) => {
+    try {
+        const timestamp = Date.now()
+        const productos = []
+        await listaDeCarritos.insert({timestamp, productos })
+        return res.json(await listaDeCarritos.insert({timestamp, productos })) 
+    } catch(error) {
+        logger.log("error", "Hubo un error:" + error)
+        res.sendStatus(500)
+    }
+}
+
+const createCarritoOnPage = async () => {
     try {
         const timestamp = Date.now()
         const productos = []
         await listaDeCarritos.insert({timestamp, productos })
         const carritoId = await listaDeCarritos.returnId(timestamp)
         return carritoId
-        ///res.json(await listaDeCarritos.insert({timestamp, productos }))  AHORA SE LE ASIGNA DIRECTAMENTE EN LA CREACION DEL USUARIO
     } catch(error) {
         logger.log("error", "Hubo un error:" + error)
-        //res.sendStatus(500)
     }
 }
 
@@ -89,4 +99,4 @@ const deleteFromCarrito = async (req, res) => {
     }
 }
 
-export { getCarrito, getCarritoNoResponse, addToCarrito, createCarrito, deleteCarrito, deleteFromCarrito, emptyCarrito }
+export { getCarrito, getCarritoNoResponse, addToCarrito, createCarrito, deleteCarrito, deleteFromCarrito, emptyCarrito, createCarritoOnPage }
