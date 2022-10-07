@@ -1,0 +1,131 @@
+{"level":"error","message":"Se encontro el siguiente error: Error: connect ECONNREFUSED 127.0.0.1:3306","timestamp":"2022-09-11T16:11:55.581Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-09-11T16:12:24.509Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-09-11T16:12:30.968Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-09-11T16:12:37.016Z"}
+{"level":"error","message":"Se encontro el siguiente error: Error: connect ECONNREFUSED 127.0.0.1:3306","timestamp":"2022-09-11T16:12:40.921Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-09-11T16:12:41.008Z"}
+{"level":"error","message":"Se encontro el siguiente error: Error: connect ECONNREFUSED 127.0.0.1:3306","timestamp":"2022-09-11T16:14:23.007Z"}
+{"level":"error","message":"Se encontro el siguiente error: Error: connect ECONNREFUSED 127.0.0.1:3306","timestamp":"2022-09-11T16:14:25.320Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-09-11T16:14:37.868Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-09-11T16:14:39.079Z"}
+{"level":"error","message":"Se encontro el siguiente error: Error: connect ECONNREFUSED 127.0.0.1:3306","timestamp":"2022-09-11T16:14:43.146Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-09-11T16:14:43.251Z"}
+{"level":"error","message":"Se encontro el siguiente error: Error: connect ECONNREFUSED 127.0.0.1:3306","timestamp":"2022-09-11T16:23:16.657Z"}
+{"level":"error","message":"Se encontro el siguiente error: Error: connect ECONNREFUSED 127.0.0.1:3306","timestamp":"2022-09-11T16:23:18.759Z"}
+{"level":"error","message":"Se encontro el siguiente error: Error: connect ECONNREFUSED 127.0.0.1:3306","timestamp":"2022-09-11T16:28:58.318Z"}
+{"level":"error","message":"Se encontro el siguiente error: Error: connect ECONNREFUSED 127.0.0.1:3306","timestamp":"2022-09-11T16:34:59.390Z"}
+{"level":"error","message":"Se encontro el siguiente error: Error: connect ECONNREFUSED 127.0.0.1:3306","timestamp":"2022-09-11T16:35:02.754Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-09-11T16:35:07.926Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-09-11T16:35:12.081Z"}
+{"level":"error","message":"Se encontro el siguiente error: Error: SQLITE_CANTOPEN: unable to open database file","timestamp":"2022-09-11T16:55:05.497Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-09-11T16:55:58.840Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-09-11T16:56:03.100Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-09-11T16:56:30.886Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-09-11T16:56:32.094Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-09-30T19:20:57.676Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-09-30T19:21:01.945Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-09-30T23:56:21.142Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-05T23:29:58.185Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-05T23:30:03.912Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T00:20:43.367Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T00:20:46.875Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T00:20:48.354Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T00:20:52.138Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T00:24:58.185Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T00:26:05.711Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T00:26:59.373Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T00:27:02.432Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T03:28:17.475Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T03:28:24.958Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T03:41:09.309Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T03:41:10.334Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T03:41:11.292Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T03:41:12.646Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T03:41:16.079Z"}
+{"level":"warn","message":"ruta: /productos con metodo: GET es inexistente","timestamp":"2022-10-06T03:41:26.432Z"}
+{"level":"warn","message":"ruta: /api/productos-test con metodo: GET es inexistente","timestamp":"2022-10-06T03:41:31.451Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T03:41:31.699Z"}
+{"level":"warn","message":"ruta: /api/style.css con metodo: GET es inexistente","timestamp":"2022-10-06T03:42:24.724Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T03:42:27.555Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T03:42:31.563Z"}
+{"level":"warn","message":"ruta: /plantilla.hbs con metodo: GET es inexistente","timestamp":"2022-10-06T03:44:25.853Z"}
+{"level":"warn","message":"ruta: /plantillamensajes.hbs con metodo: GET es inexistente","timestamp":"2022-10-06T03:44:26.164Z"}
+{"level":"warn","message":"ruta: /script.js con metodo: GET es inexistente","timestamp":"2022-10-06T03:44:32.851Z"}
+{"level":"warn","message":"ruta: /client.socket.js con metodo: GET es inexistente","timestamp":"2022-10-06T03:44:32.858Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T03:44:33.030Z"}
+{"level":"warn","message":"ruta: / con metodo: GET es inexistente","timestamp":"2022-10-06T03:44:35.420Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T03:44:35.654Z"}
+{"level":"warn","message":"ruta: /index.html con metodo: GET es inexistente","timestamp":"2022-10-06T03:48:51.969Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T03:48:52.327Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T03:49:57.638Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T03:50:04.778Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T03:50:08.212Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T03:50:10.503Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T03:50:12.331Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T03:50:13.679Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T03:50:14.858Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T03:50:15.488Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T03:50:19.394Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T03:50:24.571Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T03:56:42.884Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T03:56:49.085Z"}
+{"level":"warn","message":"ruta: /infro con metodo: GET es inexistente","timestamp":"2022-10-06T04:02:37.951Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T04:02:38.256Z"}
+{"level":"warn","message":"ruta: /info con metodo: GET es inexistente","timestamp":"2022-10-06T04:02:40.844Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T04:02:41.089Z"}
+{"level":"warn","message":"ruta: /info con metodo: GET es inexistente","timestamp":"2022-10-06T04:03:08.832Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T04:03:09.109Z"}
+{"level":"warn","message":"ruta: /info con metodo: GET es inexistente","timestamp":"2022-10-06T04:03:09.855Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T04:03:10.123Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T04:03:24.912Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T04:06:09.837Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T04:06:11.550Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T04:06:17.193Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T04:14:01.716Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T04:14:03.968Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T04:14:05.321Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T04:14:06.844Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T04:14:07.982Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T04:14:08.717Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T04:14:10.819Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T04:14:11.443Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T04:14:20.369Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T04:14:26.622Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T04:14:33.948Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T04:14:35.316Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T04:15:03.896Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T04:15:05.084Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T04:15:06.459Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T04:15:21.630Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T04:15:23.972Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T04:15:28.077Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T04:15:31.241Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T04:15:32.575Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T04:15:33.406Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T04:15:36.869Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T04:15:38.060Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T04:15:53.169Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T04:15:54.219Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T04:17:27.749Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T04:17:30.617Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T04:20:17.697Z"}
+{"level":"error","message":"Se encontro el siguiente error: Error: SQLITE_CANTOPEN: unable to open database file","timestamp":"2022-10-06T04:47:53.688Z"}
+{"level":"error","message":"Se encontro el siguiente error: Error: SQLITE_CANTOPEN: unable to open database file","timestamp":"2022-10-06T04:47:56.388Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T04:48:01.572Z"}
+{"level":"error","message":"Se encontro el siguiente error: Error: SQLITE_CANTOPEN: unable to open database file","timestamp":"2022-10-06T04:48:06.573Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T04:48:06.660Z"}
+{"level":"warn","message":"ruta: /favicon.ico con metodo: GET es inexistente","timestamp":"2022-10-06T16:22:04.412Z"}
+{"level":"error","message":"Se encontro el siguiente error: Error: SQLITE_CANTOPEN: unable to open database file","timestamp":"2022-10-06T18:45:07.967Z"}
+{"level":"error","message":"Se encontro el siguiente error: Error: SQLITE_CANTOPEN: unable to open database file","timestamp":"2022-10-06T18:46:57.145Z"}
+{"level":"error","message":"Se encontro el siguiente error: Error: SQLITE_CANTOPEN: unable to open database file","timestamp":"2022-10-06T18:47:10.921Z"}
+{"level":"error","message":"Se encontro el siguiente error: Error: SQLITE_CANTOPEN: unable to open database file","timestamp":"2022-10-06T18:47:11.121Z"}
+{"level":"error","message":"Se encontro el siguiente error: Error: SQLITE_CANTOPEN: unable to open database file","timestamp":"2022-10-06T18:47:28.829Z"}
+{"level":"error","message":"Se encontro el siguiente error: Error: SQLITE_CANTOPEN: unable to open database file","timestamp":"2022-10-06T18:47:29.029Z"}
+{"level":"error","message":"Se encontro el siguiente error: Error: SQLITE_CANTOPEN: unable to open database file","timestamp":"2022-10-06T18:49:11.822Z"}
+{"level":"error","message":"Se encontro el siguiente error: Error: SQLITE_CANTOPEN: unable to open database file","timestamp":"2022-10-06T18:49:57.185Z"}
+{"level":"error","message":"Se encontro el siguiente error: Error: SQLITE_CANTOPEN: unable to open database file","timestamp":"2022-10-06T18:49:57.387Z"}
+{"level":"error","message":"Se encontro el siguiente error: Error: SQLITE_CANTOPEN: unable to open database file","timestamp":"2022-10-06T18:49:58.373Z"}
+{"level":"warn","message":"ruta: /i con metodo: GET es inexistente","timestamp":"2022-10-06T19:59:18.892Z"}
+{"level":"warn","message":"ruta: /api/style.css con metodo: GET es inexistente","timestamp":"2022-10-06T19:59:27.298Z"}
+{"level":"error","message":"Se encontro el siguiente error: Error: insert into `productos` (`foto`, `nombre`, `precio`) values (NULL, 'Birome', NULL) - SQLITE_CONSTRAINT: NOT NULL constraint failed: productos.precio","timestamp":"2022-10-06T21:57:27.845Z"}
+{"level":"error","message":"Se encontro el siguiente error: Error: insert into `productos` (`foto`, `nombre`, `precio`) values (NULL, NULL, NULL) - SQLITE_CONSTRAINT: NOT NULL constraint failed: productos.nombre","timestamp":"2022-10-06T22:04:25.520Z"}
