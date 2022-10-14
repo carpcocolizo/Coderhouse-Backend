@@ -1,3 +1,4 @@
+import config from "../src/config/config.js";
 import instance from "./axios.js";
 
 const cookieJar = {
@@ -7,8 +8,8 @@ const cookieJar = {
 const logInUser = async () => {
   try {
     const response = await instance.post("/login", {
-      username: "coshita@coshita.com",
-      password: "coshita",
+      username: config.usernameTest,
+      password: config.passwordTest,
     });
     console.log(response.data);
     cookieJar.myCookies = response.headers["set-cookie"];
@@ -34,9 +35,9 @@ const createProduct = async () => {
   try {
     const response = await instance.post("/api/productos", {
       nombre: "Tele",
-      descripcion: "muchas pulgadas",
-      codigo: "TT12",
-      foto: "ladetuvieja",
+      descripcion: "pocas pulgadas",
+      codigo: "TE12",
+      foto: "unamuylinda",
       precio: 12,
       stock: 500
     });
@@ -48,7 +49,7 @@ const createProduct = async () => {
 
 const getByIdProducts = async () => {
   try {
-    const response = await instance.get("/api/productos/6348c55722703e7b454a26ce", {    // ID SACADA DE LA BASE DE DATOS
+    const response = await instance.get(`/api/productos/${config.productId}`, {    // ID SACADA DE LA BASE DE DATOS
       headers: {
         cookie: cookieJar.myCookies,
       },
@@ -61,7 +62,7 @@ const getByIdProducts = async () => {
 
 const putProducts = async () => {
   try {
-    const response = await instance.put("/api/productos/6348c55722703e7b454a26ce", {     // ID SACADA DE LA BASE DE DATOS
+    const response = await instance.put(`/api/productos/${config.productId}`, {     // ID SACADA DE LA BASE DE DATOS
       nombre: "Tele",
       descripcion: "muchas pulgadas",
       codigo: "TT12",
@@ -77,7 +78,7 @@ const putProducts = async () => {
 
 const deleteProducts = async () => {
   try {
-    const response = await instance.delete("/api/productos/6348c55722703e7b454a26ce", {    // ID SACADA DE LA BASE DE DATOS
+    const response = await instance.delete(`/api/productos/${config.productId}`, {    // ID SACADA DE LA BASE DE DATOS
       headers: {
         cookie: cookieJar.myCookies,
       },
@@ -90,7 +91,7 @@ const deleteProducts = async () => {
 
 await logInUser();
 await getProducts();
-//await createProduct()
-//await getByIdProducts()
-//await putProducts()
-//await deleteProducts()
+await createProduct()
+await getByIdProducts()
+await putProducts()
+await deleteProducts()

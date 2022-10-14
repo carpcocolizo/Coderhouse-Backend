@@ -12,8 +12,7 @@ const redirectMain = async (req, res) => {
 
 const renderLogin = async (req, res) => {
   try {
-    res.status(500).json({failed:"Authentication failed: invalid credentials"})
-    //res.render("login.hbs");
+    res.render("login.hbs");
   } catch (error) {
     logger.log("error", "Hubo un error:" + error);
     res.sendStatus(500);

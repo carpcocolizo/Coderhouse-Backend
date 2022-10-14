@@ -13,6 +13,11 @@ export default {
   adminMail: process.env.MAILADMIN,
   mailNode: process.env.MAILNODE,
 
+  usernameTest: process.env.USERNAMETEST || "TUVIEJA",
+  passwordTest: process.env.PASSWORDTEST,
+  productId: process.env.PRODUCTIDTEST,
+  productId2: process.env.PRODUCTIDTEST2,
+
   mongodb: {
     connectionString: process.env.CONNECTIONSTRING,
   },
