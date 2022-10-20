@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingreso de Productos</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
+    <style>
+        table, th, td {
+          border:1px solid black;
+        }
+        div {
+          display: inline-block;
+        }
+    </style>
+</head>
+<body>
+  <div id="profilepicture"><img src="./upload/{{avatar}}" alt="Profile picture" width="100" height="100"></div>
+  <div>
+      <nav>
+          Bienvenid@,
+      </nav>
+      <nav>
+          Nombre: <span id="nombre"></span>
+      </nav>
+      <nav>
+          Direccion: <span id="address"></span>
+      </nav>
+      <nav>
+          Edad: <span id="age"></span>
+      </nav>
+      <nav>
+          Telefono: <span id="phonenumber"></span>
+      </nav>
+      <nav>
+          Email <span id="email"></span>
+      </nav>
+
+              <button style="position: absolute;" onclick="location.href='../logout'">
+                  Desloguear
+              </button>
+  </div>
+  <h1>Productos disponibles:</h1>
+    <div id="productos">
+      <table>
+        <tr>
+          <th>Nombre</th>
+          <th>Precio</th>
+          <th>Foto</th>
+        </tr>
+        <tbody id="productosrow"></tbody>
+      </table>
+  </div>
+    <h1>Carrito de compras:</h1>
+      <div id="carrito"></div>
+        <ul id="listacarrito"></ul>
+      <h4>Total a pagar: <span id="total"></span></h4>
+    <button id="submitorder">Realizar Compra</button>
+  </div>
+<script src="/script.js"></script>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"
+   />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+</head>
+<body>
+    <form action="/register" enctype="multipart/form-data" method="POST" onsubmit="return verify(event)">
+        <p>Ingrese su email y constraseña para registrarse</p>
+        <input type="email" name="username" id="email" placeholder="Ingrese su email">
+        <input type="password" name="password" id="password" placeholder="Ingrese su contraseña">
+        <input type="text" name="firstname" id="firstname" placeholder="Ingrese su nombre">
+        <input type="text" name="address" id="address" placeholder="Ingrese su direccion">
+        <input type="number" name="age" id="age">
+        <input type="tel" name="telephonenumber" id="telephonenumber">
+        <input type="file" required name="myFile">     
+        <input type="submit" name="submitRegister" id="submitRegister" class="btn" value="Enviar">   
+    </form>
+    <div class="alert alert-error" style="display: none"></div>
+    <button  onclick="location.href='./login'">
+        IR A LOGIN
+    </button>
+    <br>
+</body>
+<script>
+   const phoneInputField = document.querySelector("#telephonenumber");
+   const phoneInput = window.intlTelInput(phoneInputField, {
+     initialCountry: "ar",
+     utilsScript:
+       "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+   });
+   const info = document.querySelector(".alert-info");
+
+   function verify(event) {
+
+   const phoneNumber = phoneInput.getNumber();
+   const error = document.querySelector(".alert-error");
+   const telephonenumber = document.getElementById("telephonenumber")
+
+   error.style.display = "none";
+
+   if (phoneInput.isValidNumber()) {
+     telephonenumber.value = phoneNumber
+     return true
+   } else {
+   error.style.display = "";
+   error.innerHTML = `Invalid phone number.`;
+   return false
+   }
+}
+   </script>
+</html>
