@@ -1,0 +1,2 @@
+{"level":"error","message":"Hubo un error:CastError: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"productos\"","timestamp":"2022-10-22T00:32:53.766Z"}
+{"level":"error","message":"Hubo un error:CastError: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"productos\"","timestamp":"2022-10-22T00:35:42.144Z"}
